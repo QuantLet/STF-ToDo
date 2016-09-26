@@ -1,0 +1,9 @@
+Name of QuantLet: ADcritln 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: A function required by STFloss08t.
+
+See also: ADcritBurr, STFloss08t
+
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

@@ -1,0 +1,26 @@
+ADcritBurr: 
+- missing keywords
+- missing author
+- description too short
+
+ADcritPareto: 
+- missing keywords
+- missing author
+- description too short
+
+ADcritln: 
+- missing keywords
+- missing author
+- description too short
+
+BondCoupon:
+- too few keywords
+
+BondOnlyCoupon:
+- too few keywords
+
+BondZeroCoupon:
+- too few keywords
+
+BondZeroCouponHPP:
+- too few keywords

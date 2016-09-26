@@ -1,0 +1,59 @@
+Name of QuantLet: BondZeroCoupon 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Computes price of the zero-coupon CAT bond for the given claim amount distribution and the non-homogeneous Poisson process governing the flow of losses.'
+
+Keywords: CAT bond
+
+See also: 'BondOnlyCoupon, STFcat04, STFcat04, STFcat05, STFcat06, STFcat07, STFcat07, STFcat08, STFcat08, STFcat09, STFcat09'
+
+Author: Awdesch Melzer
+
+Submitted: Tue, August 06 2013 by Awdesch Melzer
+
+Input: 'Tn2 x 1- vector, time to expiry
+	Zscalar- payment at maturity
+	Dn1 x 1- vector, threshold level
+	parlambdan x 1- vector, parameters of the intensity function lambda (n=2 for lambda=1, n=3 otherwise)
+	rscalar- continuously-compounded discount rate
+	lambdascalar- intensity function
+	sine function (lambda=0)
+	linear function (lambda=1)
+	sine square function (lambda=2)
+	paramsn x 1- vector, parameters of the claim size distribution
+	n=1 (exponential)
+	n=2 (gamma, lognormal, Pareto, Weibull)
+	n=3 (Burr, mixofexps)
+	Tmaxscalar- time horizon
+	distribstring- claim size distribution:
+	Burr - Burr distribution
+	exponential - exponential distribution
+	gamma - gamma distribution
+	lognormal - lognormal distribution
+	mixofexps - mix of exponential distributions
+	Pareto - Pareto distribution
+	Weibull - Weibull distribution
+	Nscalar - number of trajectories'
+
+Output: 'ym x 3- matrix, the first column are times to bond"s expiration, the second threshold levels and the third corresponding prices of the bond'
+
+Example: 'y = BondZeroCoupon(Z,D,T,r,lambda,parlambda,distr,params,Tmax,N)
+	  Z = 1
+	  D = c(1e9,2e9)
+	  T = c(1,2)
+	  r = log(1.025)
+	  lambda = 0
+	  parlambda = c(39,14,-0.2)
+	  distr = "Burr"
+	  params = c(0.5,4*1e16,5)
+	  Tmax = max(T)
+	  N = 20
+	  d1 = BondZeroCoupon(Z,D,T,r,lambda,parlambda,distr,params,Tmax,N)
+	  d1
+
+	  Result: Contents of d1
+	  	  [1,] 1 1e+09 0.97561
+	  	  [2,] 1 2e+09 0.97561
+	  	  [3,] 2 1e+09 0.95181
+	  	  [4,] 2 2e+09 0.95181'
