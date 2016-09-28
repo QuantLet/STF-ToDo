@@ -95,3 +95,28 @@ STF2dollargamma2D:
 
 STF2dollargamma3D:
 - missing keywords
+
+STF2logpayoff:
+- missing keywords
+
+STF2svm01:
+- too few keywords
+
+STF2tvch01:
+- too few keywords
+
+STF2tvch02:
+- too few keywords
+
+STF2tvch03:
+- too few keywords
+
+STF2tvch02:
+- too few keywords
+
+STF2tvch05: ok
+
+STF2tvch06:
+- too few keywords
+
+STF2tvch07: ok

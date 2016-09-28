@@ -1,0 +1,18 @@
+Name of QuantLet: STF2logpayoff
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Shows the linear approximation of the log payoff with the portfolio of options of a given number of strikes and given range. The code need "blsprice" function from MATLAB toolbox.'
+
+See also: STF2vswapstrike
+
+Author: Elena Silyakova
+
+Submitted: Mon, December 05 2011 by Dedy Dwi Prastyo
+
+Input: 's2- the highest strike of options" portfolio
+	s1- the lowest strike of options" portfolio
+	tau- maturity of the swap
+	n- number of options used for replication'
+
+Output: '2D plot of a log payoff function'
