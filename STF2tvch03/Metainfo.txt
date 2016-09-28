@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Computes the mean absolute forecast error of the GARCH volatility forecast based on the number "ghist" of past observations and plots the forecast.'
 
-Keywords: forecast, garch, time-series, volatility
+Keywords: 'forecast, garch, time-series, volatility, nonstationary, heteroskedasticity'
 
 See also: 'STF2tvch01, STF2tvch02, STF2tvch04, STF2tvch05, STF2tvch06, STF2tvch07'
 

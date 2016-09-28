@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots the area of two different groups. It refers to the four plots in the SVM chapter.'
 
-Keywords: SVM
+Keywords: SVM, risk management, kernel, default, classification
 
 See also: MVAsvmSig05C200, MVAsvmSig100C1, MVAsvmSig2C1, SMSsvmbankrupt, SMSsvmspiral
 

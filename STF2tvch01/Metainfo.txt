@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots the daily log-returns of S&P 500 in the years  2001 to 2005.'
 
-Keywords: returns, time-series
+Keywords: 'returns, time-series, garch, nonstationary, heteroskedasticity'
 
 See also: 'STF2tvch02, STF2tvch03, STF2tvch04, STF2tvch05, STF2tvch06, STF2tvch07'
 

@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Evaluates the mean absolute forecast errors of the AWS model for SP500 data in years 2001-2005.'
 
-Keywords: arch, forecast, garch, time-series
+Keywords: 'arch, forecast, garch, time-series, nonstationary, heteroskedasticity, forecast, volatility'
 
 See also: 'STF2tvch01, STF2tvch02, STF2tvch03, STF2tvch04, STF2tvch05, STF2tvch07'
 
