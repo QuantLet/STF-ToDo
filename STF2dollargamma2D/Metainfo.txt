@@ -8,6 +8,8 @@ See also: STF2daxvswap, STF2dollargamma3D, STF2vswapstrike
 
 Author: Elena Silyakova, Gregoire Njacheun, Awdesch Melzer
 
+Keywords: gamma, vega, option, portfolio, volatility
+
 Submitted: Thu, May 10 2012 by Dedy Dwi Prastyo
 
 Input: 'n- number of strikes in portfolio

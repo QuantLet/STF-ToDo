@@ -6,6 +6,8 @@ Description: 'Calculates the variance vega of equally weighted options" portfoli
 
 Author: Elena Silyakova
 
+Keywords: gamma, vega, option, portfolio, volatility
+
 Submitted: Mon, December 05 2011 by Dedy Dwi Prastyo
 
 Input: 'n- number of strikes in portfolio
