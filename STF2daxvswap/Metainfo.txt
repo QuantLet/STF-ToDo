@@ -1,0 +1,19 @@
+Name of QuantLet: STF2daxvswap 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Calculates the strike of a variance of a given maturiy using the potrfolio of options of a given strike range. The code needs "blsprice" function from MATLAB toolbox.'
+
+See also: STF2dollargamma2D, STF2vswapstrike
+
+Author: Elena Silyakova
+
+Submitted: Mon, December 05 2011 by Dedy Dwi Prastyo
+
+Input: 's2- the highest strike of options" portfolio
+	s1- the lowest strike of options" portfolio
+	tau- maturity of the swap
+	n- number of options used for replication'
+
+Output: Strike value
+

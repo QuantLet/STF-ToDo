@@ -1,0 +1,9 @@
+Name of QuantLet: Paretornd 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: A function reuqired by STFloss10
+
+See also: STFloss08t, STFloss10
+
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

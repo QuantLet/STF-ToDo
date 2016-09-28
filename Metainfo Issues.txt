@@ -24,3 +24,74 @@ BondZeroCoupon:
 
 BondZeroCouponHPP:
 - too few keywords
+
+Burrcdf: 
+- missing keywords
+- missing author
+- description too short
+
+Burrpdf: 
+- missing keywords
+- missing author
+- description too short
+
+Burrrnd: (Burrrnd.m)
+- missing keywords
+- missing author
+- description too short
+
+DIFFERENCE TO BURRRND.R ??????
+
+Burrrnd: (Burrrnd.R)
+- too few keywords
+- missing author
+
+GarmanKohlhagen:
+- missing keywords
+
+HestonFFTVanilla:
+- missing keywords
+
+HestonVanilla:
+- missing keywords
+
+HestonVanillaFitSmile:
+- missing keywords
+
+HestonVanillaLipton: 
+- missing keywords
+
+HestonVanillaSmile: 
+- missing keywords
+
+Paretocdf: 
+- missing keywords
+- missing author
+- description too short
+
+Paretopdf: 
+- missing keywords
+- missing author
+- description too short
+
+Paretornd: (Paretornd.m)
+- missing keywords
+- missing author
+- description too short
+
+DIFFERENCE TO PARETORND.R ??????
+
+Paretornd: (Paretornd.R)
+- too few keywords
+
+STF2daxvswap:
+- missing keywords
+
+STF2dollargamma:
+- missing keywords
+
+STF2dollargamma2D:
+- missing keywords
+
+STF2dollargamma3D:
+- missing keywords

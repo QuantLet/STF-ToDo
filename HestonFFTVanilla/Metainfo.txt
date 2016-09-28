@@ -1,0 +1,11 @@
+Name of QuantLet: HestonFFTVanilla 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains the European FX option price in the Heston model. Required by STFhes03.m function.'
+
+See also: STFhes03
+
+Author: Rafal Weron, Agnieszka Janek
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

@@ -1,0 +1,18 @@
+Name of QuantLet: STF2dollargamma3D 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Calculates the variance vega of equally weighted options" portfolio, weighted by 1/K and by 1/K^2.'
+
+See also: STF2dollargamma2D, STF2vswapstrike
+
+Author: Elena Silyakova
+
+Submitted: Mon, December 05 2011 by Dedy Dwi Prastyo
+
+Input: 'n- number of strikes in portfolio
+	s2- the highest strike of options" portfolio
+	tau_max- maximal maturity of the swap
+	s1- the lowest strike of options" portfolio'
+
+Example: '3D plot of individual dollar gammas and portfolio dollar gamma for each weighting scheme.'

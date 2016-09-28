@@ -1,0 +1,11 @@
+Name of QuantLet: HestonVanillaSmile 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains the volatility smile implied by the Heston model. Required by STFhes04.m function.'
+
+See also: STFhes04, STFhes05, STFhes06
+
+Author: Rafal Weron, Agnieszka Janek
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
