@@ -1,0 +1,20 @@
+Name of QuantLet: STFcat08
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Plots the difference between zero-coupon CAT bond prices in the Burr claim amount case for a homogeneous and a non-homogeneous Poisson process governing the flow of losses.'
+
+Keywords: CAT bond
+
+See also: 'BondZeroCoupon, BondZeroCouponHPP, Burrrnd, Paretornd, mixexprnd, simHPP, simHPPALP, simNHPP, simNHPPALP'
+
+Author: Awdesch Melzer
+
+Submitted: Tue, August 06 2013 by Awdesch Melzer
+
+Datafile: ncl.dat
+
+Example: 'y = BondZeroCouponHPP(Z,D,T,r,lambda,distr,params,Tmax,N) gives a 3D plot of the difference between zero-coupon CAT bond prices in the Burr claim amount case for a homogeneous and a non-homogeneous Poisson process governing the flow of losses.'
+
+
+

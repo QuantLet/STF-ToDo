@@ -120,3 +120,34 @@ STF2tvch06:
 - too few keywords
 
 STF2tvch07: ok
+
+STF2vswapstrike:
+- missing keywords
+
+STFcat01:
+- missing keywords
+- description too short
+
+STFcat02:
+- too few keywords
+
+STFcat03:
+- missing keywords
+
+STFcat04:
+- too few keywords
+
+STFcat05:
+- too few keywords
+
+STFcat06:
+- too few keywords
+
+STFcat07:
+- too few keywords
+
+STFcat08:
+- too few keywords
+
+STFcat09:
+- too few keywords
