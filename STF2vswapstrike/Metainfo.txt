@@ -2,7 +2,9 @@ Name of QuantLet: STF2vswapstrike
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Calculates the strike of a variance of a given maturiy using the potrfolio of options of a given strike range.'
+Description: 'Calculates the strike of a variance of a given maturity using the potrfolio of options of a given strike range.'
+
+Keywords: variance, option, portfolio, maturity, strike
 
 See also: STF2daxvswap, STF2dollargamma2D, STF2dollargamma3D, STF2logpayoff
 

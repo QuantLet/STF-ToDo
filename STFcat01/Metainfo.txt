@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Produces the plot of the PCS catastrophe loss data.'
 
+Keywords: CAT bond, risk, bond, plot, currency
+
 See also: STFcat02, STFcat02, STFcat03, STFcat03
 
 Author: Zografia Anastasiadou

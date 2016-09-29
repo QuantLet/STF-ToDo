@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots the zero-coupon CAT bond price for the Burr claim amounts and the non-homogeneous Poisson process governing the flow of losses.'
 
-Keywords: CAT bond
+Keywords: CAT bond, zero-coupon, Poisson process, 3d, bond, price
 
 See also: 'BondZeroCoupon, Burrrnd, Paretornd, mixexprnd, simHPP, simNHPP, simNHPPALP'
 

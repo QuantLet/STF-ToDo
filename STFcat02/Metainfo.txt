@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Produces the plot of an aggregate loss process together with a real-world trajectory, two sample quantile lines and mean of the process.'
 
-Keywords: CAT bond
+Keywords: CAT bond, plot, quantile, mean, currency
 
 See also: STFcat01, STFcat03, quantilelines, simHPP, simNHPP, simNHPPALP
 

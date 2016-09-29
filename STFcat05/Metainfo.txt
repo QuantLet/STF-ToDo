@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots the CAT bond price, for the bond paying only coupons, for the Burr claim amounts and a non-homogeneous Poisson process governing the flow of losses.'
 
-Keywords: CAT bond
+Keywords: CAT bond, Poisson, 3D, bond, plot, currency, price
 
 See also: 'BondOnlyCoupon, BondZeroCoupon, Burrrnd, Paretornd, mixexprnd, simHPP, simNHPP, simNHPPALP'
 

@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots the difference between zero-coupon CAT bond prices in the Burr and lognormal claim amount cases for a non-homogeneous Poisson process governing the flow of losses.'
 
-Keywords: CAT bond
+Keywords: CAT bond, plot, 3d, zero-coupon, lognormal, Poisson process
 
 See also: 'BondCoupon, BondOnlyCoupon, BondZeroCoupon, Burrrnd, Paretornd, mixexprnd, simHPP, simNHPP, simNHPPALP'
 
