@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Shows the linear approximation of the log payoff with the portfolio of options of a given number of strikes and given range. The code needs "blsprice" function from MATLAB toolbox.'
 
-Keywords: options, portfolio, discrete, linear, approximation
+Keywords: option, portfolio, discrete, linear, approximation
 
 See also: STF2vswapstrike
 

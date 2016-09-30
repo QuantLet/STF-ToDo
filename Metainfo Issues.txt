@@ -87,67 +87,32 @@ Paretornd: (Paretornd.R)
 STF2daxvswap:
 - missing keywords
 
-STF2dollargamma:
-- missing keywords
-
-STF2dollargamma2D:
-- missing keywords
-
-STF2dollargamma3D:
-- missing keywords
-
-STF2logpayoff:
-- missing keywords
-
-STF2svm01:
-- too few keywords
-
-STF2tvch01:
-- too few keywords
-
-STF2tvch02:
-- too few keywords
-
-STF2tvch03:
-- too few keywords
-
-STF2tvch02:
-- too few keywords
-
-STF2tvch05: ok
-
-STF2tvch06:
-- too few keywords
-
-STF2tvch07: ok
-
-STF2vswapstrike:
-- missing keywords
-
 STFcat01:
-- missing keywords
 - description too short
 
-STFcat02:
-- too few keywords
-
-STFcat03:
+STFdmm01:
 - missing keywords
 
-STFcat04:
-- too few keywords
+STFdmm02:
+- missing keywords
 
-STFcat05:
-- too few keywords
+STFdmm03:
+- missing keywords
 
-STFcat06:
-- too few keywords
+STFdmm04:
+- missing keywords
 
-STFcat07:
-- too few keywords
+STFdmm05:
+- missing keywords
 
-STFcat08:
-- too few keywords
+STFdmm06:
+- missing keywords
 
-STFcat09:
-- too few keywords
+STFdmm07:
+- missing keywords
+
+STFdmm08:
+- missing keywords
+
+STFdmm09:
+- missing keywords

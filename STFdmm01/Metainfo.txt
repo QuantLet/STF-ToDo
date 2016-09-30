@@ -1,0 +1,17 @@
+Name of QuantLet: STFdmm01
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Calculates the minimum spanning tree and presents the results as a set of links for company data set (close.csv). The links are presented in the order of attachments. Requires mst.m to run the program.'
+
+See also: mst, STFdmm11
+
+Author: Janusz Miskiewicz, Awdesch Melzer
+
+Submitted: Fri, November 09 2012 by Dedy Dwi Prastyo
+
+Datafile: close.csv
+
+
+
+
