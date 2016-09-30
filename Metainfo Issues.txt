@@ -116,3 +116,45 @@ STFdmm08:
 
 STFdmm09:
 - missing keywords
+
+STFdmm10:
+- missing keywords
+
+STFdmm11:
+- missing keywords
+
+STFdmm12:
+- missing keywords
+
+STFdmm13:
+- missing keywords
+
+STFdmm14:
+- missing keywords
+
+STFdmm15:
+- missing keywords
+
+STFfft01:
+- missing keywords
+
+STFhes01:
+- too few keywords
+
+STFhes02:
+- missing keywords
+
+STFhes03:
+- missing keywords
+
+STFhes04:
+- missing keywords
+
+STFhes05:
+- missing keywords
+
+STFhes06:
+- missing keywords
+
+STFhes07:
+- missing keywords
