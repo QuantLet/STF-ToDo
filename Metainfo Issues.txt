@@ -158,3 +158,30 @@ STFhes06:
 
 STFhes07:
 - missing keywords
+
+STFloss01:
+- missing keywords
+
+STFloss02:
+- missing keywords
+
+STFloss03:
+- missing keywords
+
+STFloss04:
+- missing keywords
+
+STFloss05:
+- missing keywords
+
+STFloss06:
+- missing keywords
+
+STFloss07:
+- missing keywords
+
+STFloss08:
+- missing keywords
+
+STFloss08t:
+- missing keywords
