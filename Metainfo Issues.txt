@@ -185,3 +185,39 @@ STFloss08:
 
 STFloss08t:
 - missing keywords
+
+STFloss09:
+- missing keywords
+
+STFloss10:
+- missing keywords
+
+STFrisk01:
+- missing keywords
+
+STFruin02:
+- mssing keywords
+
+STFruin03:
+- mssing keywords
+
+STFruin04:
+- mssing keywords
+
+STFruin05:
+- mssing keywords
+
+STFruin06:
+- mssing keywords
+
+STFruin07:
+- mssing keywords
+
+STFruin08:
+- mssing keywords
+
+STFruin09:
+- mssing keywords
+
+STFruin10:
+- mssing keywords
