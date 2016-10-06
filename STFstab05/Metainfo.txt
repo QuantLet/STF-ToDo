@@ -1,0 +1,18 @@
+Name of QuantLet: STFstab05
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Plots (log)-returns of DJIA index with GARCH(1,1)-based daily volatility estimate sigma_t as well as sigma_t filtered DJIA returns. It also provides left tail plots of the cdf of (standardized) returns, filtered returns with four fitted distributions. The corresponding right tails are as well. 
+              Requires edftests.m, empcdf.m, nigest.m, hypest.m, stabreg.m, edftests.m, hypcdf.m, nigcdf.m, stabcdf.m.'
+
+See also: 'edftests, empcdf, hypcdf, hypest, hypmml, nigcdf, nigest, nigmml, stabcdf, stabcull, stabreg'
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
+
+Datafile: Dane_copula.txt
+
+Example: 'edftests.m, empcdf.m, nigest.m, hypest.m, stabreg.m, edftests.m, hypcdf.m, nigcdf.m, stabcdf.m produce these plots of the (log)-returns of DJIA index with GARCH(1,1)-based daily volatility estimate sigma_t (figure 1, left panel), as well as sigma_t filtered DJIA returns (figure 1, right panel). 
+          They also provide left tail plots of the cdf of (standardized) returns (figure 2, upper left panel), filtered returns (figure 2, upper right panel) with four fitted distributions. The corresponding right tails are plotted in figure 2 bottom left and right panels.'
+

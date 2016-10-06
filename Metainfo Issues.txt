@@ -196,28 +196,64 @@ STFrisk01:
 - missing keywords
 
 STFruin02:
-- mssing keywords
+- missing keywords
 
 STFruin03:
-- mssing keywords
+- missing keywords
 
 STFruin04:
-- mssing keywords
+- missing keywords
 
 STFruin05:
-- mssing keywords
+- missing keywords
 
 STFruin06:
-- mssing keywords
+- missing keywords
 
 STFruin07:
-- mssing keywords
+- missing keywords
 
 STFruin08:
-- mssing keywords
+- missing keywords
 
 STFruin09:
-- mssing keywords
+- missing keywords
 
 STFruin10:
+- missing keywords
+
+STFruin11:
+- missing keywords
+
+STFruin12:
+- missing keywords
+
+STFruin13:
+- missing keywords
+
+STFruin14:
+- missing keywords
+
+STFruin17:
+- missing keywords
+
+STFstab01:
+- too few keywords
+- MAYBE .m AND .R DON'T DO THE SAME THING???
+
+STFstab02:
+- MAYBE .m AND .R DON'T DO THE SAME THING???
+
+STFstab03:
+- missing keywords
+- MAYBE .m AND .R DON'T DO THE SAME THING???
+
+STFstab04:
+- missing keywords
+
+STFstab05:
+- missing keywords
+
+STFstab06:
 - mssing keywords
+- too few plots for description? compare quantnet?
