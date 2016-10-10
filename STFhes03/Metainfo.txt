@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Compares the option prices obtained using the analytical Heston formula (1993) and the FFT method (Carr-Madan formula via FFT + Simpson"s, Carr-Madan using adaptive Gauss-Kronrod quadrature, and Lipton"s formula using adaptive Gauss-Kronrod quadrature). Requires HestonFFTVanilla.m, HestonVanillaLipton.m and HestonVanilla.m function.'
 
+Keywords: heston, geometric-brownian-motion, option-price, visualization, graphical representation, Gauss Kronrod, strike, error
+
 See also: HestonFFTVanilla, HestonVanilla, HestonVanillaLipton
 
 Author: Rafal Weron, Agnieszka Janek

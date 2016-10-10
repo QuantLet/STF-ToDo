@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots the effect of changing the correlation on the shape of the smile. Requires GarmanKohlhagen.m, HestonVanillaSmile.m and HestonVanilla.m function.'
 
+Keywords: correlation, volatility smile, volatility, implied-volatility, heston, model, parameter, graphical representation, visualization
+
 See also: GarmanKohlhagen, HestonVanilla, HestonVanillaSmile
 
 Author: Rafal Weron, Agnieszka Janek

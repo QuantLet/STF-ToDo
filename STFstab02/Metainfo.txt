@@ -5,7 +5,7 @@ Published in: Statistical Tools for Finance and Insurance
 Description: 'STFstab02.R creates a) a plot of stable probability density function for different betas b) a plot of probability density functions of Gaussian, Cauchy, Levy distributions.
               STFstab02.m shows a semi-logarithmic plot of symmetric (beta=mu=0) stable densities for four values of alpha and a plot of stable densities for alpha = 1.2 and four values of beta. Requires the "stabpdf_fft.m" function.'
 
-Keywords: Levy, cauchy, gaussian, pdf, stable distribution
+Keywords: Levy, cauchy, gaussian, pdf, stable distribution, graphical representation, visualization
 
 See also: STFstab01, STFstab03, stabpdf_fft
 
