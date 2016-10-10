@@ -1,0 +1,11 @@
+Name of QuantLet: edftests
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains the empirical distribution function (edf) goodness-of-fit statistics. Required by STFstab05.m and STFstab06.m function.'
+
+See also: STFstab05, STFstab06
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

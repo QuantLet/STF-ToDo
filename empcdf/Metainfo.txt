@@ -1,0 +1,11 @@
+Name of QuantLet: empcdf
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains the empirical cumulative distribution function (cdf). Required by STFstab01.m, STFstab05.m and STFstab06.m functions.'
+
+See also: STFstab01, STFstab05, STFstab06
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

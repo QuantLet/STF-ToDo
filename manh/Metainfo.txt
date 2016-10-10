@@ -1,0 +1,20 @@
+Name of QuantLet: manh
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Gives the Manhattan distence between time series normalised by the time series length. A function required by STFdmm11.R. and STFdmm11.m'
+
+See also: 'STFdmm11, STFdmm12, STFdmm13, STFdmm14, STFdmm15, bmlp, mst, theil, ultra, umlp'
+
+Author: Janusz Miskiewicz, Awdesch Melzer
+
+Submitted: Wed, November 21 2012 by Dedy Dwi Prastyo
+
+
+
+
+
+
+
+
+

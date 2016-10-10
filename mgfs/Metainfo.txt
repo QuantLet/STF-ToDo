@@ -1,0 +1,9 @@
+Name of QuantLet: mgfs
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: Neededn by STFruin05.m
+
+See also: STFruin05, STFruin05
+
+Submitted: Fri, May 04 2012 by Dedy Dwi Prastyo

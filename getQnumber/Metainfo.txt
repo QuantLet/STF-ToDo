@@ -1,0 +1,9 @@
+Name of QuantLet: getQnumber
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: A function required by STFloos09
+
+See also: STFloss09
+
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo
