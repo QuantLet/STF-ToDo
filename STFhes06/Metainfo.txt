@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots the EUR/USD market smile on July 1, 2004 and the fit obtained with the Heston model for tau = 1 week, 1 month, 3 months, 6 months, 1 year, 2 years, the term structure of the volatility of volatility and the correlation visualizing the problem of fitting the smile in the short term. Requires HestonVanilla.m, HestonVanillaSmile.m, and GarmanKohlhagen.m function.'
 
+Keywords: maturity, correlation, term structure, volatility smile, volatility, implied-volatility, heston, model, parameter, graphical representation, visualization
+
 See also: GarmanKohlhagen, HestonVanilla, HestonVanillaSmile
 
 Author: Rafal Weron, Agnieszka Janek

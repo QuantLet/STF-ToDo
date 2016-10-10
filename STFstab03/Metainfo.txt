@@ -7,6 +7,8 @@ Description: 'STFstab03.R compares S0 and S parameterizations and plots both.
               Note, that for large lambdas the distribution approaches the Gaussian (though with a different scale) anf for small lambdas the stable law with the same shape parameter alpha. 
               Requires "stabpdf_fft.m", "tstabpdf.m", and "tstabpdf3.m" functions.'
 
+Keywords: graphical representation, visualization, stable distribution, pdf, simulation
+
 See also: STFstab01, STFstab02, stabpdf_fft, tstabpdf, tstabpdf3
 
 Author: Zografia Anastasiadou, Rafal Weron

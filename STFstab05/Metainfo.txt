@@ -5,6 +5,8 @@ Published in: Statistical Tools for Finance and Insurance
 Description: 'Plots (log)-returns of DJIA index with GARCH(1,1)-based daily volatility estimate sigma_t as well as sigma_t filtered DJIA returns. It also provides left tail plots of the cdf of (standardized) returns, filtered returns with four fitted distributions. The corresponding right tails are as well. 
               Requires edftests.m, empcdf.m, nigest.m, hypest.m, stabreg.m, edftests.m, hypcdf.m, nigcdf.m, stabcdf.m.'
 
+Keywords: log-returns, cdf, GARCH, volatility, estimation, graphical representation, visualization
+
 See also: 'edftests, empcdf, hypcdf, hypest, hypmml, nigcdf, nigest, nigmml, stabcdf, stabcull, stabreg'
 
 Author: Rafal Weron
