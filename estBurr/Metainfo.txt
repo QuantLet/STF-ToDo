@@ -2,8 +2,7 @@ Name of QuantLet: estBurr
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Estimates the parameters of Burr distribution. Parameter estimation can be done by ML, A2 or both methods.
-Required by STFloss08t.'
+Description: 'Estimates the parameters of Burr distribution. Parameter estimation can be done by maximum likelihood (ML) or optimization based on Andersen-Darling statistic (A2). Required by STFloss08t.'
 
 Keywords: parameters, estimation, heavy-tailed, maximum-likelihood, loss function
 

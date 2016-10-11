@@ -2,7 +2,9 @@ Name of QuantLet: ADcritPareto
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss08t.
+Description: 'Calculates the Anderson-Darling test statistic for Pareto distribution. The function is required by STFloss08t.'
+
+Keywords: test, Testing, pareto, heavy-tailed, distribution
 
 See also: STFloss08t
 
