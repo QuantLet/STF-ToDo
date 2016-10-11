@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Computes price of the zero-coupon CAT bond for the given claim amount distribution and the homogeneous Poisson process governing the flow of losses.'
 
-Keywords: CAT bond
+Keywords: Keywords: CAT bond, bond, poisson process, loss function, loss distribution, zero-coupon
 
 See also: Burrrnd, Paretornd, STFcat08, STFcat08, mixexprnd, simHPP, simHPPALP
 

@@ -2,7 +2,9 @@ Name of QuantLet: cvBurr
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss08t
+Description: 'Simulates values of the EDF statistics for the Burr distribution. Required by STFloss08t'
+
+Keywords: edf, simulation, distribution, heavy-tailed, univariate
 
 See also: STFloss08t
 

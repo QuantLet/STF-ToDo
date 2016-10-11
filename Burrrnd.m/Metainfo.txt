@@ -2,7 +2,9 @@ Name of QuantLet: Burrrnd
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss10
+Description: 'Calculates random numbers from Burr-Distribution. The default values for the parameters ALPHA, LAMBDA, TAU, M, N are 1, 1, 2, 1, 1 respectively. Uses the inversion method. Required by STFloss10'
+
+Keywords: random-number-generation, random, continuous, univariate, heavy-tailed
 
 See also: STFloss08t, STFloss10
 

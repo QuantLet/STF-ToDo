@@ -2,7 +2,9 @@ Name of QuantLet: estln
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss08t
+Description: 'Estimates the parameters of a log-normal distribution. Possible methods for estimation are: maximum likelihood, method of moments Required by STFloss08t.'
+
+Keywords: estimation, distribution, log-normal, paramters, univariate
 
 See also: STFloss08t
 
