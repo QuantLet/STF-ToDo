@@ -1,0 +1,9 @@
+Name of QuantLet: moments
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: Needed by STFruin05.m
+
+See also: 'STFruin05, STFruin06, STFruin07, STFruin08, STFruin09, STFruin10, STFruin12, STFruin13, STFruin14'
+
+Submitted: Fri, May 04 2012 by Dedy Dwi Prastyo

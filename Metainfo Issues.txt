@@ -257,3 +257,100 @@ STFstab05:
 STFstab06:
 - mssing keywords
 - too few plots for description? compare quantnet?
+
+adjR: 
+- missing keywords
+- missing author
+- description too short
+
+bmlp:
+- missing keywords
+- missing author
+- description too short
+
+cvBurr:
+- missing keywords
+- missing author
+- description too short
+
+cvPareto:
+- missing keywords
+- missing author
+- description too short
+
+cvln:
+- missing keywords
+- missing author
+- description too short
+
+edftests:
+- missing keywords
+
+empcdf: 
+- missing keywords
+
+estBurr:
+- missing keywords
+- missing author
+- description too short
+
+estPareto:
+- missing keywords
+- missing author
+- description too short
+
+estln:
+- missing keywords
+- missing author
+- description too short
+
+getQnumber:
+- missing keywords
+- missing author
+- description too short
+
+ghypstat:
+- missing keywords
+
+hypcdf:
+- missing keywords
+
+hypest:
+- missing keywords
+- description too short
+
+hypmml:
+- too few keywords
+
+hyppdf:
+- missing keywords
+- missing author
+- description too short
+
+manh:
+- missing keywords
+
+mc_culloch: SAS??????
+
+mef:
+- missing keywords
+- missing author
+- description too short
+
+mgfs:
+- missing keywords
+- missing author
+- description too short
+
+mixexppdf:
+- missing keywords
+- missing author
+- description too short
+
+mixexprnd: R and m the same????
+- too few keywords
+
+moments:
+- missing keywords
+- missing author
+- description too short

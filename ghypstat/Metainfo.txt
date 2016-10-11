@@ -1,0 +1,11 @@
+Name of QuantLet: ghypstat
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Returns expected value and variance of generalized hyperbolic distribution. Required by STFstab04.m function.'
+
+See also: STFstab04
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

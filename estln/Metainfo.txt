@@ -1,0 +1,9 @@
+Name of QuantLet: estln
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: A function required by STFloss08t
+
+See also: STFloss08t
+
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

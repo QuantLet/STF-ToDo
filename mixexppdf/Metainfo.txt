@@ -1,0 +1,9 @@
+Name of QuantLet: mixexppdf
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: A function required by STFloss03
+
+See also: STFloss03
+
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo
