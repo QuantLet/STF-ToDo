@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Contains the volatility smile implied by the Heston model. Required by STFhes04.m function.'
 
+Keywords: heston, model, option, option-price, implied-volatility, volatility, volatility smile, risk, financial
+
 See also: STFhes04, STFhes05, STFhes06
 
 Author: Rafal Weron, Agnieszka Janek

@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Contains the European FX option price in the Heston model. Required by STFhes03.m function.'
 
+Keywords: option, option-price, heston, model, currency, volatility
+
 See also: STFhes03
 
 Author: Rafal Weron, Agnieszka Janek

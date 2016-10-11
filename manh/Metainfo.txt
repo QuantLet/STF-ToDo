@@ -2,7 +2,9 @@ Name of QuantLet: manh
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Gives the Manhattan distence between time series normalised by the time series length. A function required by STFdmm11.R. and STFdmm11.m'
+Description: 'Gives the Manhattan distance between time series normalised by the time series length. A function required by STFdmm11.R. and STFdmm11.m'
+
+Keywords: time-series, distance, manhattan metric, proximity, financial
 
 See also: 'STFdmm11, STFdmm12, STFdmm13, STFdmm14, STFdmm15, bmlp, mst, theil, ultra, umlp'
 

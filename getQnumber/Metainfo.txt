@@ -2,7 +2,9 @@ Name of QuantLet: getQnumber
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloos09
+Description: 'Returns quarterly number of losses. Auxiliary function required by STFloss09'
+
+Keywords: loss function, frequency, count, relative frequency, loss distribution
 
 See also: STFloss09
 

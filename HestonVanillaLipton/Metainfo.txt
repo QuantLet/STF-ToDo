@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Obtains the European FX option price in the Heston model using the Lewis-Lipton formula. Required by STFhes03.m function.'
 
+Keywords: heston, model, option, option-price, implied-volatility, volatility, volatility smile, risk, financial
+
 See also: STFhes03
 
 Author: Rafal Weron, Agnieszka Janek

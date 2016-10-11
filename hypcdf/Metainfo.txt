@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Contains the hyperbolic cumulative distribution function (cdf). Required by STFstab05.m and STFstab06.m function.'
 
+Keywords: cdf, distribution, hyperbolic, continous, probability
+
 See also: STFstab05, STFstab06
 
 Author: Rafal Weron
