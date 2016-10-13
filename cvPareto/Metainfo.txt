@@ -2,7 +2,9 @@ Name of QuantLet: cvPareto
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss08t
+Description: 'Simulates values of the EDF statistics for the Pareto distribution with given parameters ALPHA, LAMBDA. Required by STFloss08t.'
+
+Keywords: edf, distribution, heavy-tailed, simulation, univariate
 
 See also: STFloss08t
 

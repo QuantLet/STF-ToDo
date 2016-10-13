@@ -2,7 +2,9 @@ Name of QuantLet: empcdf
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Contains the empirical cumulative distribution function (cdf). Required by STFstab01.m, STFstab05.m and STFstab06.m functions.'
+Description: 'Plots the empirical cumulative distribution function (cdf) for a vector x, in support from (-inf, max(x)). Infimum of support can be specified. Required by STFstab01.m, STFstab05.m and STFstab06.m functions.'
+
+Keywords: edf, empirical, graphical representation, visualization, density
 
 See also: STFstab01, STFstab05, STFstab06
 

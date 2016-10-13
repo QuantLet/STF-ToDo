@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Returns expected value and variance of generalized hyperbolic distribution. Required by STFstab04.m function.'
 
+Keywords: variance, descriptive-statistics, hyperbolic, distribution, continuous
+
 See also: STFstab04
 
 Author: Rafal Weron

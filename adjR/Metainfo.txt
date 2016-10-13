@@ -2,7 +2,9 @@ Name of QuantLet: adjR
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Needed by STFruin05.m
+Description: 'Returns the adjustment coefficient R for a mixture of two exponential parameters. Needed by STFruin05.m.'
+
+Keywords: paramters, Poisson process, exponential, risk, distribution
 
 See also: STFruin05, STFruin05
 

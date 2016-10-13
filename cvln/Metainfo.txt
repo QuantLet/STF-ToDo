@@ -2,7 +2,9 @@ Name of QuantLet: cvln
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss08t
+Description: 'Simulates values of the EDF statistics for the lognormal distribution for given values of MU and SIGMA. Required by STFloss08t.'
+
+Keywords: simulation, edf, lognormal, distribution, univariate
 
 See also: STFloss08t
 
