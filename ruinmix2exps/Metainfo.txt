@@ -1,0 +1,9 @@
+Name of QuantLet: ruinmix2exps
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'This function is used by STFruin04.m'
+
+See also: STFruin04, STFruin04
+
+Submitted: Fri, May 04 2012 by Dedy Dwi Prastyo

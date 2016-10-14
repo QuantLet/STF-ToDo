@@ -354,3 +354,78 @@ moments:
 - missing keywords
 - missing author
 - description too short
+
+mst:
+- missing keywords
+- missing author
+
+nigcdf:
+- missing keywords
+
+nigest:
+- missing keywords
+
+nigmml:
+- missing keywords
+
+nigpdf:
+- missing keywords
+- missing author
+- description too short
+
+pdfHeston:
+- missing keywords
+
+quantilelines:
+- too few keywords
+
+quantiles:
+- missing keywords
+- missing author
+- description too short
+
+ruinmix2exps:
+- missing keywords
+- missing author
+- description too short
+
+samplemef:
+- missing keywords
+- missing author
+- description too short
+
+simGBM:
+- too few keywords
+- description too short
+
+simHPP:
+- missing keywords
+- description too short
+
+SAME NAME - DIFFERENT OUTPUT / PROCEDURE
+CHANGED NAME TO simHPP_
+????????
+
+simHPP_:
+- too few keywords
+
+simHPPALP:
+- too few keywords
+
+simHeston:
+- too few keywords
+
+simNHPP:
+- missing keywords
+- description too short
+
+SAME NAME - DIFFERENT OUTPUT / PROCEDURE
+CHANGED NAME TO simNHPP_
+????????
+
+simNHPP_:
+- too few keywords
+- description too short
+
+simNHPPALP:
+- too few keywords
