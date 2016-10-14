@@ -1,0 +1,10 @@
+Name of QuantLet: tstabpdf3
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: Required by STFstab03.m and STFstab04.m function.
+
+See also: STFstab03, STFstab04
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
+

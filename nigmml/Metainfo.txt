@@ -1,0 +1,14 @@
+Name of QuantLet: nigmml 
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Gives the maximum likelihood function for the NIG distribution to plugin into the command fminsearch.'
+
+See also: STFstab05, nigest
+
+Author: Rafal Weron
+
+Submitted: Mon, November 05 2012 by Awdesch Melzer
+
+Example: fminsearch('nigmml',[a,b,d,m],[],x)
+

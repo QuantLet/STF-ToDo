@@ -1,0 +1,11 @@
+Name of QuantLet: pdfHeston
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains the probability density function in the Heston stochastic volatility model. Required by STFhes02.m function.'
+
+See also: STFhes02
+
+Author: Rafal Weron, Agnieszka Janek
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

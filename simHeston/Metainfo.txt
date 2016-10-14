@@ -1,0 +1,31 @@
+Name of QuantLet: simHeston
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Samples trajectories of the spot price and volatility processes in the Heston model.'
+
+Keywords: heston, simulation
+
+See also: STFhes01, simGBM
+
+Author: Rafal Weron
+
+Submitted: Mon, April 11 2011 by Maria Osipenko
+
+Input: 's0: starting value of the spot price process
+        N: time endpoint
+        mu: drift
+        v0: starting value of the volatility process
+        delta: time step size
+        KAPPA: speed of mean reversion of the volatility process
+        THETA: long-term mean of the volatility process
+        no: 2-column vector of normally distributed pseudorandom numbers
+        SIGMA: volatility
+        RHO: correlation between the spot price and volatility processes
+        method
+        METHOD = 1- Euler scheme (with absorption for the volatility process)
+        METHOD = 2- Euler scheme (with reflection for the volatility process)'
+
+Output: simulation of Geometric Brownian Motion
+
+Example: simHeston(1,4,0.04,0.02,2,0.04,0.3,-0.05,0.01)

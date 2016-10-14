@@ -1,0 +1,11 @@
+Name of QuantLet: simHPP
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: A function required by STFloss01
+
+See also: STFloss01, STFloss10, simNHPP
+
+Author: Joanna Janczura
+
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

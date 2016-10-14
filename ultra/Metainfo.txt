@@ -1,0 +1,11 @@
+Name of QuantLet: ultra
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: Ultrametric distance between time series
+
+See also: 'STFdmm02, STFdmm03, STFdmm04, STFdmm05, STFdmm06, STFdmm07, STFdmm08, STFdmm09, STFdmm10, manh, theil, umlp'
+
+Author: Janusz Miskiewicz
+
+Submitted: Mon, November 05 2012 by Dedy Dwi Prastyo

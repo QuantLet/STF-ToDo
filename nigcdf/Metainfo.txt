@@ -1,0 +1,11 @@
+Name of QuantLet: nigcdf
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contaisn the NIG cumulative distribution function (cdf). Required by STFstab05.m and STFstab06.m function.'
+
+See also: STFstab05, STFstab06
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
