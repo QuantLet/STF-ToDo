@@ -1,0 +1,12 @@
+Name of QuantLet: stabpdf_fft
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains the stable probability density function (pdf) via FFT. Required by STFstab02.m'
+
+See also: STFstab02, STFstab03
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
+

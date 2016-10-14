@@ -1,0 +1,13 @@
+Name of QuantLet: stabreg
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains regression parameter estimates of a stable distribution. Required by STFstab05.m and STFstab06.m function.'
+
+Keywords: estimation, regression, stable, stable distribution
+
+See also: STFstab05, STFstab06, stab_reg_kw
+
+Author: Rafal Weron
+
+Submitted: Sat, March 15 2014 by Lukas Borke

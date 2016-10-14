@@ -429,3 +429,47 @@ simNHPP_:
 
 simNHPPALP:
 - too few keywords
+
+simNHPPRP:
+- missing keywords
+- missing author
+- description too short
+
+simNHPPRPRT:
+- missing keywords
+- missing author
+- description too short
+
+stab_reg_kw: SAS???
+- too few keywords
+
+stabreg:
+- too few keywords
+
+stabcdf:
+- missing keywords
+
+stabcull:
+- description too short
+
+stabpdf_fft:
+- missing keywords
+
+theil:
+- missing keywords
+
+tstabpdf:
+- missing keywords
+
+tstabpdf3:
+- missing keywords
+- missing author
+- description too short
+
+ultra:
+- missing keywords
+- description too short
+
+umlp:
+- missing keywords
+- description too short

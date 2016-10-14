@@ -1,0 +1,11 @@
+Name of QuantLet: tstabpdf
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Contains the stable probability density function (pdf). Required by STFstab03.m and STFstab04.m function.'
+
+See also: STFstab03, STFstab04
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
