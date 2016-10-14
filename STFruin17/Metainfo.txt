@@ -12,7 +12,7 @@ Author: Zografia Anastasiadou
 
 Submitted: Mon, October 17 2011 by Awdesch Melzer
 
-Example: 'Produces these plots: a plot of the ruin probability and capital of an insurance company and plots of the relative error and capital.
+Example: 'Produces these plots: a plot of the ruin probability and insurance company's capital and plots of the relative error and insurance company's capital.
           One error plot with:
           blue - err2
           brown - err3
@@ -25,4 +25,3 @@ Example: 'Produces these plots: a plot of the ruin probability and capital of an
           magenta - err9
           darkgreen - err10
           brown - err11.'
-

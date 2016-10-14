@@ -2,9 +2,7 @@ Name of QuantLet: moments
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Returns the k-th moment (up to fourth) of the mixture of 2 exponentials distribution claims. Needed by STFruin05.m.'
-
-Keywords: exponential, risk, distribution, cdf, pdf
+Description: Needed by STFruin05.m
 
 See also: 'STFruin05, STFruin06, STFruin07, STFruin08, STFruin09, STFruin10, STFruin12, STFruin13, STFruin14'
 

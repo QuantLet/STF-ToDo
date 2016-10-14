@@ -2,9 +2,7 @@ Name of QuantLet: mgfs
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Returns the moment generating function or its k-th derivative (up to third) for mixture of two exponential distributions claimsSTFruin05.m.'
-
-Keywords:  exponential, derivative, distribution, cumulant generating function, cumulant
+Description: Neededn by STFruin05.m
 
 See also: STFruin05, STFruin05
 

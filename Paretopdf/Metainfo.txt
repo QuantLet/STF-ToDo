@@ -2,10 +2,7 @@ Name of QuantLet: Paretopdf
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Returns probability density function for pareto distribution.
-A function required by STFloss05.'
-
-Keywords: pdf, pareto, distribution, generalized-pareto-model, probability, heavy-tailed
+Description: A function required by STFloss05.
 
 See also: STFloss01, STFloss02, STFloss03, STFloss04, STFloss05
 

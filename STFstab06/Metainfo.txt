@@ -5,7 +5,7 @@ Published in: Statistical Tools for Finance and Insurance
 Description: 'Plots (log)-returns of WIG20 index with GARCH(1,1)-based daily volatility estimate sigma_t, as well as sigma_t filtered WIG20 returns. 
               Requires edftests.m, empcdf.m, nigest.m, hypest.m, stabreg.m, edftests.m, hypcdf.m, nigcdf.m, and stabcdf.m functions.'
 
-Keywords: log-returns, GARCH, stable distribution, volatility, visualization, graphical representation
+Keywords: log-returns, GARCH, stable distribution, volatility, visualization, graphic representation
 
 See also: 'edftests, empcdf, hypcdf, hypest, nigcdf, nigest, stabcdf, stabreg'
 
