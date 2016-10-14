@@ -1,0 +1,101 @@
+ADcritBurr: 
+- missing author
+
+ADcritPareto: 
+- missing author
+
+ADcritln: 
+- missing author
+
+Burrcdf: 
+- missing author
+
+Burrpdf: 
+- missing author
+
+Burrrnd: (Burrrnd.m)
+- missing author
+
+DIFFERENCE TO BURRRND.R ??????
+
+Burrrnd: (Burrrnd.R)
+- missing author
+
+Paretocdf: 
+- missing author
+
+Paretopdf: 
+- missing author
+
+Paretornd: (Paretornd.m)
+- missing author
+
+DIFFERENCE TO PARETORND.R ??????
+
+STFstab01:
+- MAYBE .m AND .R DON'T DO THE SAME THING???
+
+STFstab02:
+- MAYBE .m AND .R DON'T DO THE SAME THING???
+
+STFstab03:
+- MAYBE .m AND .R DON'T DO THE SAME THING???
+
+STFstab06:
+- too few plots for description? compare quantnet?
+
+adjR: 
+- missing author
+
+bmlp:
+- missing author
+
+cvBurr:
+- missing author
+
+cvPareto:
+- missing author
+
+cvln:
+- missing author
+
+edftests:
+- missing keywords
+
+empcdf: 
+- missing keywords
+
+estBurr:
+- missing author
+
+estPareto:
+- missing author
+
+estln:
+- missing author
+
+getQnumber:
+- missing author
+
+hypest:
+- missing keywords (What is this Q doing?)
+- description too short
+
+hyppdf:
+- missing author
+
+mc_culloch: SAS??????
+
+mef:
+- missing author
+
+mgfs:
+- missing author
+
+mixexppdf:
+- missing author
+
+mixexprnd: R and m the same????
+
+moments:
+- missing author

@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Computes the price of the coupon-bearing CAT bond for the given claim amount distribution and non-homogeneous Poisson process governing the flow of losses.'
 
-Keywords: CAT bond, bond, poisson process, loss function, loss distribution
+Keywords: CAT bond, bond, poisson process, loss function, loss-distribution
 
 See also: Burrrnd, Paretornd, STFcat06, STFcat06, STFcat07, mixexprnd, simHPP, simNHPP, simNHPPALP
 

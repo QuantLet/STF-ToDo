@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Returns quarterly number of losses. Auxiliary function required by STFloss09'
 
-Keywords: loss function, frequency, count, relative frequency, loss distribution
+Keywords: loss function, frequency, counts, relative frequency, loss-distribution
 
 See also: STFloss09
 
