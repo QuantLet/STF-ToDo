@@ -2,7 +2,9 @@ Name of QuantLet: hyppdf
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Required by STFstab04.m function.
+Description: 'Contains the hyperbolic probability distribution function (pdf). Function is required by STFstab04.m.'
+
+Keywords: pdf, probability, density, continuous, hyperbolic
 
 See also: STFstab04
 
