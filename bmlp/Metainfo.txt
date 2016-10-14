@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Contains bidirectional minimum length path (BMLP) algorithm. Result is a set of links between nodes.'
 
-Keywords: tree, correlation, correlation matrix, distance, similarity
+Keywords: tree, correlation, correlation-matrix, distance, similarity
 
 See also: 'STFdmm02, STFdmm03, STFdmm04, STFdmm06, STFdmm09, STFdmm13, manh, theil, umlp'
 

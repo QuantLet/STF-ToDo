@@ -2,7 +2,9 @@ Name of QuantLEt: Paretocdf
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss08t.
+Description: 'Returns cumulative distribution function (cdf) of a pareto distribution. A function required by STFloss08t.'
+
+Keywords: cdf, pareto, distribution, generalized-pareto-model, quantile, probability, heavy-tailed
 
 See also: STFloss08t
 

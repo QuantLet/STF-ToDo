@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Plots densities and log-densities of symmetric hyperbolic, TSD, NIG and Gaussian distributions having the same variance. Requires ghypstat.m (requires besselk.m from Symbolic Math toolbox), hyppdf.m, nigpdf.m, tstabpdf3.m, and tstabpdf.m functions.'
 
-Keywords: pdf, density, hyperbolic, stable distribution, gaussian, graphical represenation, visualization
+Keywords: pdf, density, hyperbolic, stable distribution, gaussian, graphical representation, visualization
 
 See also: ghypstat, hyppdf, nigpdf, tstabpdf, tstabpdf3
 

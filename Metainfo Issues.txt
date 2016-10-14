@@ -1,287 +1,63 @@
 ADcritBurr: 
-- missing keywords
 - missing author
-- description too short
 
 ADcritPareto: 
-- missing keywords
 - missing author
-- description too short
 
 ADcritln: 
-- missing keywords
 - missing author
-- description too short
-
-BondCoupon:
-- too few keywords
-
-BondOnlyCoupon:
-- too few keywords
-
-BondZeroCoupon:
-- too few keywords
-
-BondZeroCouponHPP:
-- too few keywords
 
 Burrcdf: 
-- missing keywords
 - missing author
-- description too short
 
 Burrpdf: 
-- missing keywords
 - missing author
-- description too short
 
 Burrrnd: (Burrrnd.m)
-- missing keywords
 - missing author
-- description too short
 
 DIFFERENCE TO BURRRND.R ??????
 
 Burrrnd: (Burrrnd.R)
-- too few keywords
 - missing author
-
-GarmanKohlhagen:
-- missing keywords
-
-HestonFFTVanilla:
-- missing keywords
-
-HestonVanilla:
-- missing keywords
-
-HestonVanillaFitSmile:
-- missing keywords
-
-HestonVanillaLipton: 
-- missing keywords
-
-HestonVanillaSmile: 
-- missing keywords
 
 Paretocdf: 
-- missing keywords
 - missing author
-- description too short
 
 Paretopdf: 
-- missing keywords
 - missing author
-- description too short
 
 Paretornd: (Paretornd.m)
-- missing keywords
 - missing author
-- description too short
 
 DIFFERENCE TO PARETORND.R ??????
 
-Paretornd: (Paretornd.R)
-- too few keywords
-
-STF2daxvswap:
-- missing keywords
-
-STFcat01:
-- description too short
-
-STFdmm01:
-- missing keywords
-
-STFdmm02:
-- missing keywords
-
-STFdmm03:
-- missing keywords
-
-STFdmm04:
-- missing keywords
-
-STFdmm05:
-- missing keywords
-
-STFdmm06:
-- missing keywords
-
-STFdmm07:
-- missing keywords
-
-STFdmm08:
-- missing keywords
-
-STFdmm09:
-- missing keywords
-
-STFdmm10:
-- missing keywords
-
-STFdmm11:
-- missing keywords
-
-STFdmm12:
-- missing keywords
-
-STFdmm13:
-- missing keywords
-
-STFdmm14:
-- missing keywords
-
-STFdmm15:
-- missing keywords
-
-STFfft01:
-- missing keywords
-
-STFhes01:
-- too few keywords
-
-STFhes02:
-- missing keywords
-
-STFhes03:
-- missing keywords
-
-STFhes04:
-- missing keywords
-
-STFhes05:
-- missing keywords
-
-STFhes06:
-- missing keywords
-
-STFhes07:
-- missing keywords
-
-STFloss01:
-- missing keywords
-
-STFloss02:
-- missing keywords
-
-STFloss03:
-- missing keywords
-
-STFloss04:
-- missing keywords
-
-STFloss05:
-- missing keywords
-
-STFloss06:
-- missing keywords
-
-STFloss07:
-- missing keywords
-
-STFloss08:
-- missing keywords
-
-STFloss08t:
-- missing keywords
-
-STFloss09:
-- missing keywords
-
-STFloss10:
-- missing keywords
-
-STFrisk01:
-- missing keywords
-
-STFruin02:
-- missing keywords
-
-STFruin03:
-- missing keywords
-
-STFruin04:
-- missing keywords
-
-STFruin05:
-- missing keywords
-
-STFruin06:
-- missing keywords
-
-STFruin07:
-- missing keywords
-
-STFruin08:
-- missing keywords
-
-STFruin09:
-- missing keywords
-
-STFruin10:
-- missing keywords
-
-STFruin11:
-- missing keywords
-
-STFruin12:
-- missing keywords
-
-STFruin13:
-- missing keywords
-
-STFruin14:
-- missing keywords
-
-STFruin17:
-- missing keywords
-
 STFstab01:
-- too few keywords
 - MAYBE .m AND .R DON'T DO THE SAME THING???
 
 STFstab02:
 - MAYBE .m AND .R DON'T DO THE SAME THING???
 
 STFstab03:
-- missing keywords
 - MAYBE .m AND .R DON'T DO THE SAME THING???
 
-STFstab04:
-- missing keywords
-
-STFstab05:
-- missing keywords
-
 STFstab06:
-- mssing keywords
 - too few plots for description? compare quantnet?
 
 adjR: 
-- missing keywords
 - missing author
-- description too short
 
 bmlp:
-- missing keywords
 - missing author
-- description too short
 
 cvBurr:
-- missing keywords
 - missing author
-- description too short
 
 cvPareto:
-- missing keywords
 - missing author
-- description too short
 
 cvln:
-- missing keywords
 - missing author
-- description too short
 
 edftests:
 - missing keywords
@@ -290,67 +66,36 @@ empcdf:
 - missing keywords
 
 estBurr:
-- missing keywords
 - missing author
-- description too short
 
 estPareto:
-- missing keywords
 - missing author
-- description too short
 
 estln:
-- missing keywords
 - missing author
-- description too short
 
 getQnumber:
-- missing keywords
 - missing author
-- description too short
-
-ghypstat:
-- missing keywords
-
-hypcdf:
-- missing keywords
 
 hypest:
-- missing keywords
+- missing keywords (What is this Q doing?)
 - description too short
-
-hypmml:
-- too few keywords
 
 hyppdf:
-- missing keywords
 - missing author
-- description too short
-
-manh:
-- missing keywords
 
 mc_culloch: SAS??????
 
 mef:
-- missing keywords
 - missing author
-- description too short
 
 mgfs:
-- missing keywords
 - missing author
-- description too short
 
 mixexppdf:
-- missing keywords
 - missing author
-- description too short
 
 mixexprnd: R and m the same????
-- too few keywords
 
 moments:
-- missing keywords
 - missing author
-- description too short
