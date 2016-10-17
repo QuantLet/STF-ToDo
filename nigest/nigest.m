@@ -1,0 +1,10 @@
+function [ay,by,dy,my]=nigest(x)
+m=mean(x);
+b=1;
+a=2;
+d=var(x);
+y=fminsearch('nigmml',[a,b,d,m],[],x);
+ay=y(1);
+by=y(2);
+dy=y(3);
+my=y(4);

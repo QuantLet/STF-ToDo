@@ -1,0 +1,11 @@
+Name of QuantLet: nigest
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Is a function required by STFstab05.m and STFstab06.m function.'
+
+See also: STFstab05, STFstab06, nigmml
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
