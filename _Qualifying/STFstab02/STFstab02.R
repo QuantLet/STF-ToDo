@@ -2,8 +2,8 @@ rm(list = ls(all = TRUE))
 graphics.off()
 # setwd('C:/...')
 
-install.packages('fBasics') 
-install.packages('stabledist')
+install.packages("fBasics")
+install.packages("stabledist")
 library(stabledist)
 library(fBasics)
 

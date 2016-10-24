@@ -2,16 +2,14 @@
 graphics.off()
 rm(list = ls(all = TRUE))
 
-# Load library
-# install.packages(c("aws", "fGarch", "igraph", "Hmisc"))
+# Load library install.packages(c('aws', 'fGarch', 'igraph', 'Hmisc'))
 install.packages("fGarch")
 library("fGarch")
 library("igraph")
 library("stats")
 library("Hmisc")
 
-# Please change working directory
-# setwd("C:/...")
+# Please change working directory setwd('C:/...')
 data <- read.delim2("SP1997-2005s.txt")
 
 time <- (1:length(data[, 1]))
@@ -44,5 +42,4 @@ timet <- (time - 1078)/250 + 2001
 plot(timet[pred >= 0], dat0[pred >= 0]^2, cex = 0.2, xaxp = c(2001, 2005, 4), xlab = "Time", ylab = "Squared log-returns")
 lines(timet[pred >= 0], pred[pred >= 0])
 
- minor.tick(4,5)
- 
+minor.tick(4, 5) 

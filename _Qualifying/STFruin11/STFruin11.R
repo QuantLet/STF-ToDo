@@ -168,7 +168,7 @@ while (j < n + 1) {
     j <- j + 1
 }
 
-# the 4-moment gamma De Vylder approximation for mixture of 2 exponentials claims with \fbeta1=3.5900e-10, beta2=7.5088e-09,
-# alpha=0.0584 and theta=0.3 (u in USD)
+# the 4-moment gamma De Vylder approximation for mixture of 2 exponentials claims with \fbeta1=3.5900e-10,
+# beta2=7.5088e-09, alpha=0.0584 and theta=0.3 (u in USD)
 psi <- Cram + as.vector((thetanew * sin(pi/b)/pi/b) * int)
 psi 

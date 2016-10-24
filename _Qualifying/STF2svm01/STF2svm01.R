@@ -1,11 +1,8 @@
 graphics.off()
 rm(list = ls(all = TRUE))
 
-# load required packages
-# install.packages("kernlab")
-# install.packages("quadprog")
-# install.packages("zoo")
-# install.packages("tseries")
+# load required packages install.packages('kernlab') install.packages('quadprog') install.packages('zoo')
+# install.packages('tseries')
 library(kernlab)
 library(quadprog)
 library(zoo)
@@ -36,5 +33,4 @@ stf2svm01 = function(G, x1, x2, y, C, sig) {
 for (i in 1:4) {
     dev.new()
     stf2svm01(G = G, x1 = x1, x2 = x2, y = y, C = C[i], sig = sig[i])
-}
- 
+} 

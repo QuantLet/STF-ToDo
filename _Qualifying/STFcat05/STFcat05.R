@@ -473,6 +473,4 @@ wireframe(z ~ x + y, data = data, screen = list(z = 30, x = -60), drape = TRUE, 
     col = "black", distance = 1, tick.number = 8, cex = 0.7, x = list(labels = round(seq(min(x), max(x), length = 11), 1)), 
     y = list(labels = round(seq(min(y), max(y), length = 11), 1)), z = list(labels = round(seq(min(z), max(z), length = 11), 
         2))), xlab = list("", rot = 30, cex = 1.2), ylab = list("", rot = -40, cex = 1.2), zlab = list("", rot = 95, cex = 1.1), 
-    par.settings = par.set)
-
- 
+    par.settings = par.set) 

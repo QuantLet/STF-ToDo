@@ -33,6 +33,6 @@ m <- moments(1, dparameters1)  # 1st raw moment
 m2 <- moments(2, dparameters1)  # 2nd raw moment
 m3 <- moments(3, dparameters1)  # 3nd raw moment
 
-# the exponential approximation for mixture of 2 exponentials claims with \fbeta1=3.5900e-10, beta2=7.5088e-09, alpha=0.0584
-# and theta=0.3 (u in USD)
+# the exponential approximation for mixture of 2 exponentials claims with \fbeta1=3.5900e-10, beta2=7.5088e-09,
+# alpha=0.0584 and theta=0.3 (u in USD)
 psi <- exp(-1 - (2 * m * theta * u - m2)/sqrt(m2^2 + 4 * theta * m * m3/3)) 

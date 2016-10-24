@@ -1,5 +1,4 @@
-# load library
-# install.packages(c("aws", "fGarch", "igraph", "Hmisc"))
+# load library install.packages(c('aws', 'fGarch', 'igraph', 'Hmisc'))
 library("aws")
 library("fGarch")
 library("igraph")
@@ -61,6 +60,4 @@ print("Mean absolute forecast errors of AWS and GARCH:")
 print("By year:")
 for (ye in 1:4) print(c(mean(errs[(250 * (ye - 1) + 1):(250 * ye)]), mean(ggarch[(250 * (ye - 1) + 1):(250 * ye)])))
 print("Total:")
-print(c(mean(errs[1:1000]), mean(ggarch[1:1000])))
-
- 
+print(c(mean(errs[1:1000]), mean(ggarch[1:1000]))) 
