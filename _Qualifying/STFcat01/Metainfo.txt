@@ -2,7 +2,7 @@ Name of QuantLet: STFcat01
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Produces the plot of the PCS catastrophe loss data.'
+Description: 'Produces the plot of the PCS catastrophe loss data. Available in R and Matlab'
 
 Keywords: CAT bond, risk, bond, plot, currency
 

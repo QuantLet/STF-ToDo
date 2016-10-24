@@ -1,18 +1,3 @@
-%----------------------------------------------------------------------------
-% Book:         STF
-%----------------------------------------------------------------------------
-% See also:     BondOnlyCoupon, Burrrnd, mixexprnd, simHPP, simNHPP, Paretornd,
-%               simNHPPALP
-%----------------------------------------------------------------------------
-% Quantlet:     STFcat05
-%----------------------------------------------------------------------------
-% Description:  STFcat05 plots the CAT bond price, for the bond paying only 
-%               coupons, for the Burr claim amounts and a non-homogeneous Poisson 
-%               process governing the flow of losses.
-%----------------------------------------------------------------------------
-% Author:       Awdesch Melzer 20130728
-%----------------------------------------------------------------------------
-
 close all
 clear all
 clc

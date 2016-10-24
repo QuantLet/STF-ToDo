@@ -1,25 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         STF2
-% ---------------------------------------------------------------------
-% Quantlet:     STF2vswapstrike
-% ---------------------------------------------------------------------
-% Description:  STF2vswapstrike calculates the strike of a variance of
-%               a given maturiy using the potrfolio of options of a given
-%               strike range
-% ---------------------------------------------------------------------
-% Usage:        STF2vswapstrike
-% ---------------------------------------------------------------------
-% Inputs:       s1 - the lowest strike of options'portfolio
-%               s2 - the highest strike of options'portfolio
-%               tau - maturity of the swap
-%               n - number of options used for replication
-% ---------------------------------------------------------------------
-% Output:       Strike value
-% ---------------------------------------------------------------------
-% Example:      Strike value
-% ---------------------------------------------------------------------
-% Author:       Elena Silyakova
-% ---------------------------------------------------------------------
 clear all
 % user input parameters
 disp('Please input the lowest and the highest strike of options portfolio as: [10,200]') ;

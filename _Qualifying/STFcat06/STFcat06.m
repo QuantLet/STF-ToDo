@@ -1,19 +1,3 @@
-%----------------------------------------------------------------------------
-% Book:         STF
-% 
-%----------------------------------------------------------------------------
-% See also:     BondCoupon, Burrrnd, mixexprnd, simHPP, simNHPP, Paretornd,
-%               simNHPPALP 
-%----------------------------------------------------------------------------
-% Quantlet:     STFcat06
-%----------------------------------------------------------------------------
-% Description:  Plot of the coupon-bearing CAT bond price for the Burr claim
-%               amounts and a non-homogeneous Poisson process governing the 
-%               flow of losses.
-%----------------------------------------------------------------------------
-% Author:       Awdesch Melzer 20130731
-%---------------------------------------------------------------------------- 
-
 clear all
 close all
 clc

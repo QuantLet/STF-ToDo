@@ -8,7 +8,7 @@ Keywords: 'returns, time-series, garch, nonstationary, heteroskedasticity'
 
 See also: 'STF2tvch02, STF2tvch03, STF2tvch04, STF2tvch05, STF2tvch06, STF2tvch07'
 
-Author: Pavel Cizek
+Author: Pavel Cizek, Wolfgang K. Härdle, Rafal Weron
 
 Submitted: Thu, October 06 2011 by Awdesch Melzer
 

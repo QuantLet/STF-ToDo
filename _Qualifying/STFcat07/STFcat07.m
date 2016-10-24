@@ -1,18 +1,3 @@
-%----------------------------------------------------------------------------
-% Book:         STF
-%----------------------------------------------------------------------------
-% See also:     BondZeroCoupon, Burrrnd, mixexprnd, simHPP, simNHPP, Paretornd,
-%               simNHPPALP
-%----------------------------------------------------------------------------
-% Quantlet:     STFcat07
-%----------------------------------------------------------------------------
-% Description:  Plot of the difference between zero-coupon CAT bond prices 
-%               in the Burr and lognormal claim amount cases for 
-%               a non-homogeneous Poisson process governing the flow of losses.
-%---------------------------------------------------------------------------- 
-% Author:       Awdesch Melzer 20130731
-%---------------------------------------------------------------------------- 
-
 clear all
 close all
 clc
