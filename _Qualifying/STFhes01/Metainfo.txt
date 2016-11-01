@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Creates plots of the GBM, Heston spot and Heston volatility processes.'
 
-Keywords: heston, simulation, geometric-brownian-motion, visualization, graphical representation, wiener-process, volatility
+Keywords: 'heston, simulation, geometric-brownian-motion, visualization, graphical representation, wiener-process, volatility'
 
 See also: SFSbb, simGBM, simHeston
 

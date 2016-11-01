@@ -21,8 +21,8 @@ set(gca,'LineWidth',1.6,'FontSize',16,'FontWeight','Bold');
 box on
 
 % to save the plot in pdf or png please uncomment next 2 lines:
-print -painters -dpdf -r600 STFloss09_01.pdf
-print -painters -dpng -r600 STFloss09_01.png
+%print -painters -dpdf -r600 STFloss09_01.pdf
+%print -painters -dpng -r600 STFloss09_01.png
 
 %  Mean value function
 
