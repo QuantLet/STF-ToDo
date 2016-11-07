@@ -45,6 +45,4 @@ dev.new()
 plot(t, ncum, type = "l", lty = 2, col = "blue3", lwd = 2, xlab = "Time (years)", ylab = "Aggregate number of losses / Mean value function", 
     xlim = c(0, 23))
 lines(t, (100.2394 * t), col = "black", lwd = 2)
-lines(t, 17.9937 * t + 3.5759 * t^2, col = "red3", lty = 3, lwd = 2)
-
- 
+lines(t, 17.9937 * t + 3.5759 * t^2, col = "red3", lty = 3, lwd = 2) 

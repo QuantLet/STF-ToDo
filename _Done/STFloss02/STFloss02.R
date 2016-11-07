@@ -36,5 +36,4 @@ title("Empirical distribution function")
 dev.new()
 plot(x, y, type = "l", col = "black", lwd = 1.5, xlab = "x", xlim = c(0, 5), ylab = "CDF(x)")
 lines(xw, w, col = "red3", lty = 3, lwd = 1.5)
-title("Empirical and lognormal distributions")
- 
+title("Empirical and lognormal distributions") 

@@ -206,5 +206,4 @@ p4 = mef(2.39, 3.03, 3, xaxis, 5)
 plot(xaxis, p1, col = "black", type = "l", lwd = 2, ylab = "e(x)", xlab = "x", xlim = c(0, 20), ylim = c(0, 6))
 lines(xaxis, p2, col = "blue3", lty = 2, lwd = 2)
 lines(xaxis, p3, col = "green4", lty = 4, lwd = 2)
-lines(xaxis, p4, col = "red3", lty = 3, lwd = 2)
- 
+lines(xaxis, p4, col = "red3", lty = 3, lwd = 2) 
