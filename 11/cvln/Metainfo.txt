@@ -6,6 +6,8 @@ Description: 'Simulates values of the EDF statistics for the lognormal distribut
 
 Keywords: simulation, edf, lognormal, distribution, univariate
 
+Author: Joanna Janczura
+
 See also: STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

@@ -6,6 +6,8 @@ Description: 'Returns quarterly number of losses. Auxiliary function required by
 
 Keywords: loss function, frequency, counts, relative frequency, loss-distribution
 
+Author: Joanna Janczura
+
 See also: STFloss09
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

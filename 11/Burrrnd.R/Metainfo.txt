@@ -6,6 +6,8 @@ Description: 'Generates a vector of pseudo random variables with Burr distributi
 
 Keywords: random-number-generation, random, continuous, univariate, heavy-tailed
 
+Author: Joanna Janczura
+
 See also: 'BondCoupon, BondZeroCouponHPP, Paretornd, STFcat04, STFcat05, STFcat06, STFcat07, STFcat08, STFcat09, mixexprnd, simHPPALP, simNHPPALP'
 
 Submitted: Sun, June 30 2013 by Awdesch Melzer

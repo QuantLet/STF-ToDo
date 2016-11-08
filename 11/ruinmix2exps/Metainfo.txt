@@ -2,8 +2,12 @@ Name of QuantLet: ruinmix2exps
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'This function is used by STFruin04.m'
+Description: 'Produces the exact ruin probability in infinite time for insurance collective risk model with mixture of 2 exponentials distribution claims. This function is used by STFruin04.m.'
+
+Keywords: risk, portfolio-insurance, risk management, exponential, model
 
 See also: STFruin04, STFruin04
+
+Author: Zografia Anastasiadou
 
 Submitted: Fri, May 04 2012 by Dedy Dwi Prastyo

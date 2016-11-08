@@ -2,8 +2,12 @@ Name of QuantLet: nigpdf
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Required by STFstab04.m function.
+Description: 'Calculates the probability density function (PDF) of an Normal Inverse Gaussian (NIG) distribution. Required by STFstab04.m function.'
 
 See also: STFstab04
+
+Keywords: normal, inverse, gaussian, pdf, density, estimation
+
+Author: Rafal Weron
 
 Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

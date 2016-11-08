@@ -8,4 +8,6 @@ Keywords: exponential, risk, distribution, cdf, pdf
 
 See also: 'STFruin05, STFruin06, STFruin07, STFruin08, STFruin09, STFruin10, STFruin12, STFruin13, STFruin14'
 
+Author: Zografia Anastasiadou
+
 Submitted: Fri, May 04 2012 by Dedy Dwi Prastyo

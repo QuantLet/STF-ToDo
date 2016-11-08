@@ -6,6 +6,8 @@ Description: 'Returns the adjustment coefficient R for a mixture of two exponent
 
 Keywords: parameter, Poisson process, exponential, risk, distribution
 
+Author: Zografia Anastasiadou
+
 See also: STFruin05, STFruin05
 
 Submitted: Fri, May 04 2012 by Dedy Dwi Prastyo

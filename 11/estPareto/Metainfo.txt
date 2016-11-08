@@ -7,6 +7,8 @@ Function required by STFloss08t.'
 
 Keywords: estimation, pareto, parameter, distribution, maximum-likelihood
 
+Author: Joanna Janczura
+
 See also: STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

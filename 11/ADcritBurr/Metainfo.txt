@@ -6,6 +6,8 @@ Description: 'Calculates the Anderson-Darling test statistic for the Burr distri
 
 Keywords: heavy-tailed, distribution, test, parameter, loss function
 
+Author: Joanna Janczura
+
 See also: ADcritln, STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

@@ -2,7 +2,11 @@ Name of QuantLet: tstabpdf3
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Required by STFstab03.m and STFstab04.m function.
+Description: 'Calculates distribution of a stable distribution. Auxiliary function, required by STFstab03.m and STFstab04.m function.'
+
+Author: Rafal Weron
+
+Keywords: pdf, stable, distribution, stable distribution, density
 
 See also: STFstab03, STFstab04
 

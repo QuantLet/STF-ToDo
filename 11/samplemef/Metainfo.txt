@@ -2,8 +2,12 @@ Name of QuantLet: samplemef
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss08
+Description: 'Returns the value of the sample mean excess function for the vector DATA in the points from vector XAXIS. A function required by STFloss08.'
+
+Keywords: loss function, loss-distribution, risk, risk management, risk process, 
 
 See also: STFloss08
+
+Author: Joanna Janczura
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

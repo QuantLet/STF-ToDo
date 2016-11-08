@@ -6,6 +6,8 @@ Description: 'Returns the cumulative density distribution of the Burr distributi
 
 Keywords: cdf, distribution, continuous, univariate, heavy-tailed
 
+Author: Joanna Janczura
+
 See also: STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

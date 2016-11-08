@@ -2,9 +2,11 @@ Name of QuantLet: hypest
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Required by STFstab05.m and STFstab06.m function.
+Description: 'Estimates hyperbolic distribution. Auxiliary Function, Required by STFstab05.m and STFstab06.m function.'
 
 See also: STFstab05, STFstab06, hypmml
+
+Keywords: pdf, probability, density, continuous, hyperbolic
 
 Author: Rafal Weron
 

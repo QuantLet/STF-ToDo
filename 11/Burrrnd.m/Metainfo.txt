@@ -6,6 +6,8 @@ Description: 'Calculates random numbers from Burr-Distribution. The default valu
 
 Keywords: random-number-generation, random, continuous, univariate, heavy-tailed
 
+Author: Joanna Janczura
+
 See also: STFloss08t, STFloss10
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

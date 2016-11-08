@@ -7,6 +7,8 @@ The default parameters are: ALPHA  = 1, LAMBDA = 1, TAU = 2.  Required by STFlos
 
 Keywords: pdf, distribution, continuous, univariate, heavy-tailed
 
+Author: Joanna Janczura
+
 See also: STFloss06
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

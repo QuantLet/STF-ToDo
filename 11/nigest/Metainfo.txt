@@ -6,6 +6,8 @@ Description: 'Is a function required by STFstab05.m and STFstab06.m function.'
 
 See also: STFstab05, STFstab06, nigmml
 
+Keywords: normal, inverse, gaussian, distribution, density, estimation
+
 Author: Rafal Weron
 
 Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

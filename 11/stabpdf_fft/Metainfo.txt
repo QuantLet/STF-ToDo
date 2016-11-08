@@ -6,6 +6,8 @@ Description: 'Contains the stable probability density function (pdf) via FFT. Re
 
 See also: STFstab02, STFstab03
 
+Keywords: stable, stable distribution, distribution, pdf, density
+
 Author: Rafal Weron
 
 Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

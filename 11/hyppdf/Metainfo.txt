@@ -6,6 +6,8 @@ Description: 'Contains the hyperbolic probability distribution function (pdf). F
 
 Keywords: pdf, probability, density, continuous, hyperbolic
 
+Author: Rafal Weron
+
 See also: STFstab04
 
 Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
