@@ -2,9 +2,11 @@ Name of QuantLet: nigcdf
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Contaisn the NIG cumulative distribution function (cdf). Required by STFstab05.m and STFstab06.m function.'
+Description: 'Contains the Normal Inverse Gaussian (NIG) cumulative distribution function (cdf). Required by STFstab05.m and STFstab06.m function.'
 
 See also: STFstab05, STFstab06
+
+Keywords: normal, inverse, gaussian, distribution, density, cdf
 
 Author: Rafal Weron
 

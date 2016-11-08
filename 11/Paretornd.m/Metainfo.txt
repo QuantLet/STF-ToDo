@@ -6,6 +6,8 @@ Description: 'Generates random arrays from a Pareto distribution. A function req
 
 Keywords: random, random-number-generation, pareto, heavy-tailed, distribution
 
+Author: Joanna Janczura
+
 See also: STFloss08t, STFloss10
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

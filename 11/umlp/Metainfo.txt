@@ -2,9 +2,11 @@ Name of QuantLet: umlp
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: unidirextional minimum length path algorithm
+Description: 'Calculates unidirectional minimum length path algorithm.  The result is presented as a set of links between nodes.'
 
 See also: 'STFdmm02, STFdmm03, STFdmm04, STFdmm05, STFdmm08, STFdmm13, bmlp, manh, mst, theil, ultra'
+
+Keywords: distance, tree, descriptive, optimization, risk
 
 Author: Janusz Miskiewicz
 

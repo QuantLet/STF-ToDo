@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Contains the stable probability density function (pdf). Required by STFstab03.m and STFstab04.m function.'
 
+Keywords: distribution, stable, stable distribution, density, pdf
+
 See also: STFstab03, STFstab04
 
 Author: Rafal Weron

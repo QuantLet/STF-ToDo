@@ -6,6 +6,8 @@ Description: 'Calculates the Anderson-Darling test statistic for Pareto distribu
 
 Keywords: test, Testing, pareto, heavy-tailed, distribution
 
+Author: Joanna Janczura
+
 See also: STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

@@ -8,7 +8,7 @@ Keywords: time-series, distance, manhattan metric, proximity, financial
 
 See also: 'STFdmm11, STFdmm12, STFdmm13, STFdmm14, STFdmm15, bmlp, mst, theil, ultra, umlp'
 
-Author: Janusz Miskiewicz, Awdesch Melzer
+Author: Janusz Miskiewicz
 
 Submitted: Wed, November 21 2012 by Dedy Dwi Prastyo
 

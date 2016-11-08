@@ -4,6 +4,8 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: '(Alpha-)stable cumulative distribution function (cdf). Required by STFstab05.m and STFstab06.m function.'
 
+Keywords: distribution, cdf, stable, stable distribution, parameter
+
 See also: STFstab05, STFstab06
 
 Author: Rafal Weron, Szymon Borak

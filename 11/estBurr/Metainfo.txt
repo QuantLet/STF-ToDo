@@ -6,6 +6,8 @@ Description: 'Estimates the parameters of Burr distribution. Parameter estimatio
 
 Keywords: parameter, estimation, heavy-tailed, maximum-likelihood, loss function
 
+Author: Joanna Janczura
+
 See also: STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

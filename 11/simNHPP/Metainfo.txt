@@ -2,7 +2,9 @@ Name of QuantLet: simNHPP
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: A function required by STFloss01
+Description: 'Generates N trajectories of the non-homogeneous Poisson process with intensity specified by LAMBDA (0 - sine function, 1 - linear function, 2 - sine square function) with paramters in PARLAMBDA. T is the time horizon. The function uses thining method. A function required by STFloss01.'
+
+Keywords: poisson, Poisson process, risk, risk management, stochastic-process, stochastic
 
 See also: STFloss01, STFloss10, simHPP
 

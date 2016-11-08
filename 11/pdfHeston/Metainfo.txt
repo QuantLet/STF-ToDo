@@ -6,6 +6,8 @@ Description: 'Contains the probability density function in the Heston stochastic
 
 See also: STFhes02
 
+Keywords: heston, volatility, variance, pdf, stochastic 
+
 Author: Rafal Weron, Agnieszka Janek
 
 Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo

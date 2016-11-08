@@ -6,6 +6,8 @@ Description: 'Returns cumulative distribution function (cdf) of a pareto distrib
 
 Keywords: cdf, pareto, distribution, generalized-pareto-model, quantile, probability, heavy-tailed
 
+Author: Joanna Janczura
+
 See also: STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

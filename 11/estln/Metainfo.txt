@@ -6,6 +6,8 @@ Description: 'Estimates the parameters of a log-normal distribution. Possible me
 
 Keywords: estimation, distribution, lognormal, parameter, univariate
 
+Author: Joanna Janczura
+
 See also: STFloss08t
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

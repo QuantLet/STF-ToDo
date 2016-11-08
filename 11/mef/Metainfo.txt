@@ -6,6 +6,8 @@ Description: 'Returns values of the mean excess function for the following distr
 
 Keywords: distribution, Weibull, pareto, exponential, lognormal
 
+Author: Joanna Janczura
+
 See also: STFloss01, STFloss02, STFloss03, STFloss04, STFloss05, STFloss06
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo

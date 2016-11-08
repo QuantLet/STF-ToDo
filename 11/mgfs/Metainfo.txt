@@ -6,6 +6,8 @@ Description: 'Returns the moment generating function or its k-th derivative (up 
 
 Keywords:  exponential, derivative, distribution, cumulant generating function, cumulant
 
+Author: Zografia Anastasiadou
+
 See also: STFruin05, STFruin05
 
 Submitted: Fri, May 04 2012 by Dedy Dwi Prastyo
