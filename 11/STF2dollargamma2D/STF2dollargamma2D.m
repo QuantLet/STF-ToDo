@@ -1,25 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         STF2
-% ---------------------------------------------------------------------
-% Quantlet:     STF2dollargamma2D
-% ---------------------------------------------------------------------
-% Description:  STF2dollargamma calculates the variance vega of equally
-%               weighted options' portfolio, weighted by 1/K and by 1/K^2
-% ---------------------------------------------------------------------
-% Usage:        STF2dollargamma2D
-% ---------------------------------------------------------------------
-% Inputs:       s1 - the lowest strike of options'portfolio
-%               s2 - the highest strike of options'portfolio
-%               n - number of strikes in portfolio
-%               tau - maturity of a swap;
-% ---------------------------------------------------------------------
-% Output:       2D plot of individual dollar gammas and portfolio dollar
-%               gamma for each weighting scheme
-% ---------------------------------------------------------------------
-% Example:      
-% ---------------------------------------------------------------------
-% Author:       Elena Silyakova
-% ---------------------------------------------------------------------
 close all
 disp('Please input the lowest and the highest strike of options portfolio as: [10,200]') ;
 disp(' ') ;

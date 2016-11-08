@@ -1,25 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         STF2
-% ---------------------------------------------------------------------
-% Quantlet:     STF2logpayoff
-% ---------------------------------------------------------------------
-% Description:  STF2logpayoff shows the linear approximation of the log 
-%               payoff with the portfolio of options of a given number 
-%               of strikes and given range  
-% ---------------------------------------------------------------------
-% Usage:        STF2logpayoff
-% ---------------------------------------------------------------------
-% Inputs:       s1 - the lowest strike of options'portfolio
-%               s2 - the highest strike of options'portfolio
-%               tau - maturity of the swap
-%               n - number of options used for replication
-% ---------------------------------------------------------------------
-% Output:       2D plot of a log payoff function
-% ---------------------------------------------------------------------
-% Example:      plot of a log payoff function
-% ---------------------------------------------------------------------
-% Author:       Elena Silyakova
-% ---------------------------------------------------------------------
 clear all
 % user input parameters
 disp('Please input the lowest and the highest strike of options portfolio as: [10,200]') ;

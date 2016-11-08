@@ -1,26 +1,3 @@
-% ---------------------------------------------------------------------
-% Book:         STF2
-% ---------------------------------------------------------------------
-% Quantlet:     STF2dollargamma
-% ---------------------------------------------------------------------
-% Description:  STF2dollargamma calculates the variance vega of equally
-%               weighted options' portfolio, weighted by 1/K and by 1/K^2
-% ---------------------------------------------------------------------
-% Usage:        STF2dollargamma
-% ---------------------------------------------------------------------
-% Inputs:       s1 - the lowest strike of options'portfolio
-%               s2 - the highest strike of options'portfolio
-%               tau_max - maximal maturity of the swap
-%               n - number of strikes in portfolio
-% ---------------------------------------------------------------------
-% Output:       3D plot of individual dollar gammas and portfolio dollar
-%               gamma for each weighting scheme
-% ---------------------------------------------------------------------
-% Example:      
-% ---------------------------------------------------------------------
-% Author:       Elena Silyakova
-% ---------------------------------------------------------------------
-close all
 disp('Please input the lowest and the highest strike of options portfolio as: [10,200]') ;
 disp(' ') ;
 para=input('Options strike range [lower bound, upper bound]=');
@@ -44,12 +21,6 @@ disp('Please input the number of strikes in portfolio (e.g. 10)') ;
 disp(' ') ;
 para=input('Number of strikes =');
 n=para;
-
-disp(' ') ;
-disp('Please select the weigting scheme: 1 - equal weighting, 2 - weighting by 1/K, 3 - weighting by 1/k^2') ;
-disp(' ') ;
-para=input('Weighting scheme =');
-w=para;
 
 
 % main computation
@@ -87,7 +58,6 @@ end
 
 %calculating dollar gamma of the sum
 
-if (w<=1) %equal weighting
 
 for b=1:m
 
@@ -108,68 +78,49 @@ b=b+1;
 
 end
 
-elseif (w<=2) %weighting by 1/K
 
 for b=1:m
 
 i=(b-1)*m+1;    
 ii=size(dollargammak,1)-m+b;
     
-cumdollargamma(b,:)=dollargammak(i,:);    
+cumdollargammak(b,:)=dollargammak(i,:);    
 
 j=i+m;
 for a=(i+m):size(dollargammak,1);
-cumdollargamma(b,:)=cumdollargamma(b,:)+dollargammak(a,:);
+cumdollargammak(b,:)=cumdollargammak(b,:)+dollargammak(a,:);
 
 a=a+m;
 end
 
-cumdollargamma(b,:)=3*(max(dollargamma(ii,:))*cumdollargamma(b,:))/max(cumdollargamma(b,:));
+cumdollargammak(b,:)=3*(max(dollargamma(ii,:))*cumdollargammak(b,:))/max(cumdollargammak(b,:));
 b=b+1;
 end
 
-else %weighting by 1/K^2
 
 for b=1:m
 
 i=(b-1)*m+1;    
 ii=size(dollargammak2,1)-m+b;
    
-cumdollargamma(b,:)=dollargammak2(i,:);    
+cumdollargammak2(b,:)=dollargammak2(i,:);    
 
 j=i+m;
 for a=(i+m):size(dollargammak2,1);
-cumdollargamma(b,:)=cumdollargamma(b,:)+dollargammak2(a,:);
+cumdollargammak2(b,:)=cumdollargammak2(b,:)+dollargammak2(a,:);
 
 a=a+m;
 end
 
-cumdollargamma(b,:)=3*(max(dollargamma(ii,:))*cumdollargamma(b,:))/max(cumdollargamma(b,:));
+cumdollargammak2(b,:)=3*(max(dollargamma(ii,:))*cumdollargammak2(b,:))/max(cumdollargammak2(b,:));
 b=b+1;
 end
-end
+
+%plotting
 
 
-x = s1:1:s2; y = 0.1:0.1:tau_max;
 
-[X,Y] = meshgrid(x,y);
-axis([s1 s2 0.1 tau_max 0 max(max(cumdollargamma))])
-%title('Dollargamma of the options portfolio')
-xlabel('S (underlying price)')
-ylabel('Maturity of a swap')
-zlabel('Gamma/2S_t^2(dollar gamma)')
-hold on
-
-
-for z=1:n
-g=m*(z-1)+1;
-c=g+m-1;
-mesh(X,Y,dollargamma(g:c,:))
-hold on
-end
-
-
-if (w<=1)
+subplot(3,1,1);
 x = s1:1:s2; y = 0.1:0.1:tau_max;
 
 [X,Y] = meshgrid(x,y);
@@ -186,14 +137,18 @@ g=m*(z-1)+1;
 c=g+m-1;
 mesh(X,Y,dollargamma(g:c,:))
 hold on
-end    
+end
   
 mesh(X,Y,cumdollargamma)
-elseif (w<=2)
+
+
+
+subplot(3,1,2);
+
 x = s1:1:s2; y = 0.1:0.1:tau_max;
 
 [X,Y] = meshgrid(x,y);
-axis([s1 s2 0.1 tau_max 0 max(max(cumdollargamma))])
+axis([s1 s2 0.1 tau_max 0 max(max(cumdollargammak))])
 %title('Dollargamma of the options portfolio')
 xlabel('Underlying price')
 ylabel('Maturity of a swap')
@@ -209,13 +164,17 @@ hold on
 end
     
     
-mesh(X,Y,cumdollargamma)
-else    
+mesh(X,Y,cumdollargammak)
+
+
+
+
+subplot(3,1,3);
 
 x = s1:1:s2; y = 0.1:0.1:tau_max;
 
 [X,Y] = meshgrid(x,y);
-axis([s1 s2 0.1 tau_max 0 max(max(cumdollargamma))])
+axis([s1 s2 0.1 tau_max 0 max(max(cumdollargammak2))])
 %title('Dollargamma of the options portfolio')
 xlabel('Underlying price')
 ylabel('Maturity of a swap')
@@ -229,9 +188,8 @@ c=g+m-1;
 mesh(X,Y,dollargamma(g:c,:))
 hold on
 end
-mesh(X,Y,cumdollargamma)
+mesh(X,Y,cumdollargammak2)
 
-end    
 
 hold off
 
