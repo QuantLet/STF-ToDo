@@ -2,7 +2,7 @@ Name of QuantLet: Paretornd
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Generates a vector of pseudo random variables with Pareto distribution.
+Description: 'Generates a vector of pseudo random variables coming from a Pareto distribution.'
 
 Keywords: random-number-generation, pareto, distribution, stochastic, random
 
