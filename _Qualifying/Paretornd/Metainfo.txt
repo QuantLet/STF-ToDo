@@ -1,16 +1,16 @@
-Name of QuantLet: Paretornd
+Name of QuantLet: Paretornd 
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Generates a vector of pseudo random variables with Pareto distribution.
+Description: 'Generates random arrays from a Pareto distribution. A function required by STFloss10'
 
-Keywords: random-number-generation
+Keywords: random, random-number-generation, pareto, heavy-tailed, distribution
 
-See also: 'BondCoupon, BondZeroCouponHPP, Burrrnd, STFcat04, STFcat05, STFcat06, STFcat07, STFcat08, STFcat09, mixexprnd, simHPPALP, simNHPPALP'
+Author: Joanna Janczura
 
-Author: Awdesch Melzer
+See also: STFloss08t, STFloss10
 
-Submitted: Sun, June 30 2013 by Awdesch Melzer
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo
 
 Input: 'ninteger- number of rows
 	minteger- number of columns

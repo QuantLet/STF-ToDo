@@ -2,7 +2,7 @@ Name of QuantLet: simHPP
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Generates N trajectories of the homogeneous Poisson process with intensity LAMBDA. T is the time horizon.A function required by STFloss01.'
+Description: 'Generates N trajectories of the homogeneous Poisson process with intensity LAMBDA. T is the time horizon. A function required by STFloss01.'
 
 Keywords: poisson, Poisson process, simulation, stochastic-process, stochastic
 
