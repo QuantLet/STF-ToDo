@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: Generates a vector of pseudo random variables with Pareto distribution.
 
-Keywords: random-number-generation
+Keywords: random-number-generation, pareto, distribution, stochastic, random
 
 See also: 'BondCoupon, BondZeroCouponHPP, Burrrnd, STFcat04, STFcat05, STFcat06, STFcat07, STFcat08, STFcat09, mixexprnd, simHPPALP, simNHPPALP'
 

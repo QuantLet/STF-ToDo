@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Computes quantiles of trajectories and plots quantiles and median of a trajectory of a homogeneous poisson process.'
 
-Keywords: risk process
+Keywords: risk process, risk, quantile, plot, visualization, median, descriptive, Poisson process
 
 See also: STFcat02, simHPP, simNHPP, simNHPPALP
 
