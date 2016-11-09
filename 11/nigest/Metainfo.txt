@@ -1,0 +1,13 @@
+Name of QuantLet: nigest
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Estimates parameters from a Normal Inverse Gaussian distribution (NIG) by maximum likelihood method. This function is required by STFstab05.m and STFstab06.m.'
+
+See also: STFstab05, STFstab06, nigmml
+
+Keywords: normal, inverse, gaussian, distribution, density, estimation, parameter
+
+Author: Rafal Weron
+
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
