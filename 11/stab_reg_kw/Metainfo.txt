@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Estimates the parameters of an alpha-stable distribution under parameterisations S1 using the Kogon-Williams method (1998).'
 
-Keywords: Kogon-Williams, estimation, stable, stable distribution
+Keywords: Kogon-Williams, estimation, stable, stable distribution, distribution
 
 See also: fractal_hurst, mc_culloch, sim_stable, stabreg
 

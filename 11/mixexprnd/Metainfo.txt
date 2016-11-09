@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Generates a vector of pseudo random variables with mixture of exponentials distributions. Required by STFloss10'
 
-Keywords: random-number-generation
+Keywords: random-number-generation, exponential, distribution, random, loss function
 
 See also: 'STFloss10, BondCoupon, BondZeroCouponHPP, Burrrnd, Paretornd, STFcat04, STFcat05, STFcat06, STFcat07, STFcat08, STFcat09, simHPPALP, simNHPPALP'
 

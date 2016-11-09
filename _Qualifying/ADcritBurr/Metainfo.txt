@@ -2,7 +2,7 @@ Name of QuantLet: ADcritBurr
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Calculates the Anderson-Darling test statistic for the Burr distribution. Rquired by STFloss08t.'
+Description: 'Calculates the Anderson-Darling test statistic for the Burr distribution. Required by STFloss08t.'
 
 Keywords: heavy-tailed, distribution, test, parameter, loss function
 

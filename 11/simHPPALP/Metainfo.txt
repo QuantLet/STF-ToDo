@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Generates the aggregate loss process driven by the homogeneous Poisson process.'
 
-Keywords: CAT bond, Poisson process, risk process
+Keywords: CAT bond, Poisson process, risk process, poisson, bond, risk
 
 See also: 'BondZeroCouponHPP, BondZeroCouponHPP, Burrrnd, Paretornd, STFcat08, STFcat08, mixexprnd, simHPP, simNHPPALP'
 
