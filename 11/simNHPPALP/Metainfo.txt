@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Generates and plots the aggregate loss process driven by the non-homogeneous Poisson process.'
 
-Keywords: poisson, Poisson process, risk, poisson, stochastic-process, stochastic
+Keywords: Poisson process, risk process
 
 See also: 'BondCoupon, BondCoupon, BondOnlyCoupon, BondOnlyCoupon, BondZeroCoupon, Burrrnd, Paretornd, STFcat02, STFcat04, STFcat04, STFcat05, STFcat05, STFcat06, STFcat06, STFcat07, STFcat07, STFcat08, STFcat08, STFcat09, STFcat09, mixexprnd, quantilelines, simHPP, simHPPALP, simNHPP'
 

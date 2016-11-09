@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Generates and plots an homogeneous Poisson process with an intensity lambda.'
 
-Keywords: Poisson process, risk process, poisson, plot, visualization, graphical representation
+Keywords: Poisson process, risk process
 
 See also: 'BondCoupon, BondCoupon, BondOnlyCoupon, BondOnlyCoupon, BondZeroCoupon, BondZeroCouponHPP, BondZeroCouponHPP, STFcat02, STFcat04, STFcat04, STFcat05, STFcat05, STFcat06, STFcat06, STFcat07, STFcat07, STFcat08, STFcat08, STFcat09, STFcat09, quantilelines, simHPPALP, simHPPALP, simNHPP, simNHPP, simNHPPALP, simNHPPALP'
 

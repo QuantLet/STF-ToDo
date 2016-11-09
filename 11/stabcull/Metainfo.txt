@@ -2,7 +2,7 @@ Name of QuantLet: stabcull
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Gives the quantile parameter estimates of a stable distribution. Method is based on J.H.McCulloch (1986) ''Simple Consistent Estimators of Stable Distribution Parameters'''
+Description: 'Gives the quantile parameter estimates of a stable distribution.'
 
 Keywords: McCulloch, estimation, quantile, stable, stable distribution
 

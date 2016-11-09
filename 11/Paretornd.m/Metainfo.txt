@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Generates random arrays from a Pareto distribution. A function required by STFloss10'
 
-Keywords: random, random-number-generation, pareto, heavy-tailed, distribution, heavy-tailed
+Keywords: random, random-number-generation, pareto, heavy-tailed, distribution
 
 Author: Joanna Janczura
 

@@ -2,10 +2,9 @@ Name of QuantLet: simGBM
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'SIMGBM Simulates Geometric Brownian Motion (GBM). 
-Parameters for starting value, drift, volatility and step size can be chosen freely.'
+Description: SIMGBM Simulates Geometric Brownian Motion (GBM)
 
-Keywords: geometric-brownian-motion, random, continuous, simulation, brownian-motion, wiener-process
+Keywords: geometric-brownian-motion
 
 See also: SFSbb, STFhes01, simHeston
 

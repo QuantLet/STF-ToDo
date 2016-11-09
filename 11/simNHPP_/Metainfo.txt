@@ -2,9 +2,9 @@ Name of QuantLet: simNHPP_
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Generates non-homogeneous Poisson process and plot 2 trajectories from non-homogeneous processes.'
+Description: 'Generates non-homogeneous Poisson process.'
 
-Keywords: poisson, Poisson process, risk, risk management, stochastic-process, stochastic
+Keywords: Poisson process, risk process
 
 See also: 'BondCoupon, BondCoupon, BondOnlyCoupon, BondOnlyCoupon, BondZeroCoupon, STFcat02, STFcat04, STFcat04, STFcat05, STFcat05, STFcat06, STFcat06, STFcat07, STFcat07, STFcat08, STFcat08, STFcat09, STFcat09, quantilelines, simHPP, simNHPPALP, simNHPPALP'
 

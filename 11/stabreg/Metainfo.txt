@@ -4,7 +4,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: 'Contains regression parameter estimates of a stable distribution. Required by STFstab05.m and STFstab06.m function.'
 
-Keywords: estimation, regression, stable, stable distribution, distribution
+Keywords: estimation, regression, stable, stable distribution
 
 See also: STFstab05, STFstab06, stab_reg_kw
 
