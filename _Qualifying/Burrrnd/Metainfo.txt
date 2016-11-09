@@ -2,15 +2,15 @@ Name of QuantLet: Burrrnd
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: 'Generates a vector of pseudo random variables with Burr distribution. The default values for the parameters ALPHA, LAMBDA, TAU, M, N are 1, 1, 2, 1, 1 respectively.'
+Description: 'Calculates random numbers from Burr-Distribution. The default values for the parameters ALPHA, LAMBDA, TAU, M, N are 1, 1, 2, 1, 1 respectively. Uses the inversion method. Required by STFloss10'
 
 Keywords: random-number-generation, random, continuous, univariate, heavy-tailed
 
 Author: Joanna Janczura
 
-See also: 'BondCoupon, BondZeroCouponHPP, Paretornd, STFcat04, STFcat05, STFcat06, STFcat07, STFcat08, STFcat09, mixexprnd, simHPPALP, simNHPPALP'
+See also: STFloss08t, STFloss10
 
-Submitted: Sun, June 30 2013 by Awdesch Melzer
+Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo
 
 Input: 'nscalar- integer, number of rows
 	mscalar- integer, number of columns
