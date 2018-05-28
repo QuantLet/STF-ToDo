@@ -1,0 +1,552 @@
+[<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/banner.png" width="888" alt="Visit QuantNet">](http://quantlet.de/)
+
+## [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/qloqo.png" alt="Visit QuantNet">](http://quantlet.de/) **simHPPALP** [<img src="https://github.com/QuantLet/Styleguide-and-FAQ/blob/master/pictures/QN2.png" width="60" alt="Visit QuantNet 2.0">](http://quantlet.de/)
+
+```yaml
+
+Name of QuantLet: simHPPALP
+
+Published in: Statistical Tools for Finance and Insurance
+
+Description: 'Generates the aggregate loss process driven by the homogeneous Poisson process.'
+
+Keywords: CAT bond, Poisson process, risk process, poisson, bond, risk
+
+See also: 'BondZeroCouponHPP, BondZeroCouponHPP, Burrrnd, Paretornd, STFcat08, STFcat08, mixexprnd, simHPP, simNHPPALP'
+
+Author: Awdesch Melzer
+
+Submitted: Tue, August 06 2013 by Awdesch Melzer
+
+Input: 'lambdascalar: intensity of the Poisson process
+        distribstring: claim size distribution
+        "Burr": Burr distribution
+        "exponential": exponential distribution
+        "gamma": gamma distribution
+        "lognormal": lognormal distribution
+        "mixofexps": mix of exponential distributions
+        "Pareto": Pareto distribution
+        "Weibull": Weibull distribution
+        paramsn: x 1- vector, parameters of the claim size distribution
+        n = 1 (exponential)
+        n = 2 (gamma, lognormal, Pareto, Weibull)
+        n = 3 (Burr, mixofexps)
+        Tscalar: time horizon
+        Ninteger: number of trajectories'
+
+Output: 'y: (2*max+2) x N x 2 array, generated proecss: max is the maximum number of jumps for all generated trajectories'
+
+Example: 'Show two trajectories of aggregate loss process driven by the homogeneous Poisson process: y = simHPPALP(lambda,distrib,params,T,N)
+          R:
+          set.seed(100)
+          y1 = simHPPALP(3,"Burr",c(3,2,1),5,1)
+          y2 = simHPPALP(3,"Pareto",c(1.5,2.5),5,1)
+          plot(y1[,,1],y1[,,2],type="l",col="red3",ylim=c(min(y1[,,2],y2[,,2]),max(y1[,,2],y2[,,2])),ylab="",xlab="")
+          lines(y2[,,1],y2[,,2],type="l",col="blue3")
+          MatLab:
+          y1 = simHPPALP(3,"Burr",[3,2,1],5,1);
+          y2 = simHPPALP(3,"Pareto",[1.5,2.5],5,1);
+          plot(y1(:,:,1),y1(:,:,2),"r-")
+          hold on
+          ylim([min(min(y1(:,:,2)),min(y2(:,:,2))),max(max(y1(:,:,2)),max(y2(:,:,2)))])
+          plot(y2(:,:,1),y2(:,:,2),"b-")
+          box on
+          hold off'
+```
+
+![Picture1](plotR.png)
+
+![Picture2](plotm.png)
+
+### R Code
+```r
+
+# ---------------------------------------------------------------------
+# Book:        STF
+# ---------------------------------------------------------------------
+# See also:    simHPP, simNHPPALP
+# ---------------------------------------------------------------------
+# Quantlet:    simHPPALP
+# ---------------------------------------------------------------------
+# Description: simHPPALP generates aggregate loss process driven by
+#              the homogeneous Poisson process.
+# ---------------------------------------------------------------------
+# Usage:       y = simHPPALP(lambda,distrib,params,T,N)
+# ---------------------------------------------------------------------
+# Input:       
+# Parameter:   lambda
+# Definition:  scalar, intensity of the Poisson process
+# Parameter:   distrib
+# Definition:  string, claim size distribution
+#              "Burr" - Burr distribution
+#              "exponential" - exponential distribution
+#              "gamma" - gamma distribution
+#              "lognormal" - lognormal distribution
+#              "mixofexps" - mix of exponential distributions
+#              "Pareto" - Pareto distribution
+#              "Weibull" - Weibull distribution
+# Parameter:   params
+# Definition:  n x 1 vector, parameters of the claim size distribution
+#              n = 1 (exponential)
+#              n = 2 (gamma, lognormal, Pareto, Weibull)
+#              n = 3 (Burr, mixofexps)
+# Parameter:   T
+# Definition:  scalar, time horizon
+# Parameter:   N
+# Definition:  scalar, number of trajectories
+# ---------------------------------------------------------------------
+# Output:      
+# Parameter:   y
+# Definition:  2*max+2 x N x 2 array, generated proecss - max is the
+#              maximum number of jumps for all generated trajectories 
+# ---------------------------------------------------------------------
+# Example:
+#              set.seed(100)
+#              y1 = simHPPALP(3,"Burr",c(3,2,1),5,1)
+#              y2 = simHPPALP(3,"Pareto",c(1.5,2.5),5,1)
+#              plot(y1[,,1],y1[,,2],type="l",col="red3",ylim=c(min(y1[,,2],y2[,,2]),max(y1[,,2],y2[,,2])),ylab="",xlab="")
+#              lines(y2[,,1],y2[,,2],type="l",col="blue3")
+# ---------------------------------------------------------------------
+# Result:      Show two trajectories of aggregate loss process driven
+#              by the homogeneous Poisson process. 
+# ---------------------------------------------------------------------
+# Keywords:    Poisson process, risk process
+# ---------------------------------------------------------------------
+# Reference:   K. Burnecki, R.Weron (2004) "Modeling of the risk process",
+#	           in "Statistical Tools for Finance and Insurance", 
+#              eds. P. Cizek, W. Härdle, R. Weron, Springer. 
+# ---------------------------------------------------------------------
+# Author:      Awdesch Melzer 20130629
+# ---------------------------------------------------------------------
+
+
+
+########################## SUBROUTINES ##########################
+
+Burrrnd = function(alpha,lambda,tau,n,m){
+#BURRRND Random arrays from Burr distribution.
+#   R = BURRRND(ALPHA,LAMBDA,TAU,N,M) returns an M-by-N array of random numbers 
+#   chosen from the Burr distribution with parameters ALPHA, LAMBDA, TAU.
+#
+#   The default values for the parameters ALPHA, LAMBDA, TAU, M, N are
+#   1, 1, 2, 1, 1, respectively.
+#
+#   BURRRND uses the inversion method.
+
+
+  if (missing(m)){
+    m      = 1
+  }
+  if (missing(n)){
+    n      = 1
+  }
+  if (missing(tau)){
+    tau    = 2
+  }
+  if (missing(lambda)){
+    lambda = 1
+  }
+  if (missing(alpha)){
+    alpha  = 1
+  }
+   u = matrix(0,n,m)
+   for (i in 1:m){
+   	   u[,i] = (lambda*(runif(n,0,1)^(-1/alpha)-1))^(1/tau)
+   }
+   y = u
+return(y)
+}
+
+mixexprnd = function(p,beta1,beta2,n,m){
+#MIXEXPRND Random arrays from the mixed exponential distribution.
+#   Y = MIXEXPRND(P,BETA1,BETA2,N,M) returns an M-by-N array of random numbers 
+#   chosen from the mixed exponential distribution with parameters P, BETA1, BETA2.
+#
+#   The default values for A, BETA1, BETA2, N, M are 0.5, 1, 2, 1, 1,
+#   respectively.
+#
+#   MIXEXPRND uses the exponential number generator.
+
+  if (missing(p)){
+      p     = 0.5
+  }
+  if (missing(beta1)){
+      beta1 = 1
+  }
+  if (missing(beta2)){
+      beta2 = 2
+  }
+  y   = rexp(n*m,rate=(1/beta2))
+  aux = which(runif(n*m,0,1)<=p)  
+
+      if(!missing(aux)){
+          y[aux]=rexp(length(aux),1/beta1)
+      }
+
+  y=matrix(y,n,m);
+  return(y)
+  }
+
+simHPP = function(lambda,T,N){
+# SIMHPP Homogeneous Poisson process.
+#       Y = SIMHPP(lambda,T,N) generates N trajectories of the
+#       homogeneous Poisson process with intensity LAMBDA. T is the time
+#       horizon. 
+
+if(lambda <= 0 || length(lambda)!=1){
+ 	stop("simHPP: Lambda must be a positive scalar.")
+ }
+ if(T <= 0 || length(T)!=1){
+ 	stop("simHPP: T must be a positive scalar.")
+ }
+ if(N <= 0 || length(N)!=1){
+ 	stop("simHPP: N must be a positive scalar.")
+ }
+  EN      = rpois(N,lambda*T)
+  ym      = matrix(T,2*max(EN)+2,N)
+  tmp     = array(0,c(2*max(EN)+2,N,2))
+  y       = tmp
+  y[,,1] = ym
+  y[,,2] = matrix(1,2*max(EN)+2,1)%*%t(EN)
+
+  i=1
+  while(i<=N){
+    if(EN[i]>0){
+    	ttmp = c(sort(T*runif(EN[i])))
+    	y[1:(2*EN[i]+1),i,1] = c(0,ttmp[ceiling((1:(2*EN[i]))/2)])
+    }else{
+        y[1,i,1]             = 0
+    }
+    y[1:(2*EN[i]+2),i,2] = c(0,floor((1:(2*EN[i]))/2),EN[i])
+    i=i+1
+  }
+return(y)
+}
+
+Paretornd = function(alpha,lambda,n,m){
+#PARETORND Random arrays from Pareto distribution.
+#   Y = PARETORND(ALPHA,LAMBDA,N,M) returns an M-by-N array of random numbers 
+#   chosen from the Pareto distribution with parameters ALPHA, LAMBDA.
+#
+#   The default values for ALPHA, LAMBDA, N, M 1, 1, 1, 1, respectively.
+#
+#   PARETORND uses the inversion method.
+
+  if (missing(m)){
+    m      = 1
+  }
+  if (missing(n)){
+    n      = 1
+  }
+  if (missing(lambda)){
+    lambda = 1
+  }
+  if (missing(alpha)){
+    alpha  = 1
+  }
+  u = matrix(0,n,m)
+  for (i in 1:m){
+  	u[,i] = lambda*(runif(n,0,1)^(-1/alpha)-1)
+  }
+  y = u
+  return(y)
+}
+
+########################## MAIN PROGRAM ##########################
+
+
+simHPPALP = function(lambda,distrib,params,T,N){
+  
+if(lambda <= 0 || (length(lambda)!=1)){
+	stop("simHPPALP: Lambda must be a positive scalar.")
+}
+if(T <= 0 || (length(T)!=1)){
+	stop("simHPPALP: T must be a positive scalar.")
+}
+if(N <= 0 || (length(N)!=1)){
+	stop("simHPPALP: N must be a positive scalar.")
+}
+if((distrib=="Burr" || distrib=="mixofexps") && (length(params)!=3)){
+	stop("simHPPALP: for Burr and mixofexps distributions, params must be a 3 x 1 vector.")
+}
+if((distrib=="gamma" || distrib=="lognormal"|| distrib=="Pareto" || distrib=="Weibull") && (length(params)!=2)){
+	stop("simHPPALP: for gamma, lognormal, Pareto and Weibull distributions, params must be a 2 x 1 vector.")
+}
+if(distrib=="exponential" && (length(params)!=1)){
+	stop("simHPPALP: for exponential distribution, params must be a scalar.")
+}
+if(distrib != "exponential" && distrib != "gamma" && distrib != "mixofexps" && distrib != "Weibull" && distrib != "lognormal" && distrib !="Pareto" && distrib != "Burr"){
+	stop("simHPPALP: distribs should be: exponential, gamma, mixofexps, Weibull, lognormal, Pareto or Burr")
+}
+
+  poisproc = simHPP(lambda,T,N)
+  rpp      = dim(poisproc)[1]
+  cpp      = dim(poisproc)[2]
+  losses   = matrix(0,rpp,cpp)
+  
+  if (distrib=="Burr"){
+    i = 1
+    while(i<=N){
+      aux = min(as.matrix(which(poisproc[,i,1]==T))) #[1:i,])
+      if(aux>2){
+        laux                   = cumsum(Burrrnd(params[1],params[2],params[3],aux/2-1,1))
+        losses[3:aux,i]        = laux[ceiling((1:(aux-2))/2)]
+        if(aux<rpp){
+          losses[(aux+1):rpp,i]= matrix(laux[length(laux)],rpp-aux,1)
+        }
+      }else{
+        losses[,i]=rep(0,rpp)
+      }
+      i=i+1
+    }
+  }else if(distrib=="exponential"){
+    i=1
+    while(i<=N){
+      aux = min(as.matrix(which(poisproc[,i,1]==T)))
+      if(aux>2){
+        laux = cumsum(rexp(aux/2-1,rate=1/params[1]))
+        losses[3:aux,i]=laux[ceiling((1:aux-2)/2)]
+        if(aux<rpp){
+          losses[(aux+1):rpp,i]=matrix(laux[length(laux)],rpp-aux,1)
+        }
+      }else{
+        losses[,i]=rep(0,rpp)
+      }
+      i=i+1
+    }
+  }else if(distrib=="gamma"){
+    i=1
+    while(i<=N){
+      aux = min(as.matrix(which(poisproc[,i,1]==T)))
+      if(aux>2){
+        laux = cumsum(rgamma(aux/2-1,shape=params[1],rate=params[2],scale=(1/params[2])))
+        losses[3:aux,i] = laux[ceiling((1:aux-2)/2)]
+        if(aux<rpp){
+          losses[(aux+1):rpp,i] = matrix(laux[length(laux)],rpp-aux,1)
+        }
+      }else{
+        losses[,i] = rep(0,rpp)
+      }
+      i=i+1
+    }
+  }else if(distrib=="lognormal"){
+    i=1
+    while(i<=N){
+      aux = min(as.matrix(which(poisproc[,i,1]==T)))
+      if(aux>2){
+        laux = cumsum(rlnorm(aux/2-1,meanlog=params[1],sdlog=params[2]))
+        losses[3:aux,i] = laux[ceiling((1:(aux-2))/2)]
+        if(aux<rpp){
+          losses[(aux+1):rpp,i] = matrix(laux[length(laux)],rpp-aux,1)
+        }
+      }else{
+        losses[,i] = rep(0,rpp)
+      }
+      i=i+1
+    }
+  }else if(distrib=="mixofexps"){
+    i=1
+    while(i<=N){
+      aux = min(as.matrix(which(poisproc[,i,1]==T)))
+      if(aux>2){
+        laux = cumsum(mixexprnd(params[3],params[1],params[2],aux/2-1,1))
+        losses[3:aux,i] = laux[ceiling((1:(aux-2))/2)]
+        if(aux<rpp){
+          losses[(aux+1):rpp,i] = matrix(laux[length(laux)],rpp-aux,1)
+        }
+      }else{
+        losses[,i] = rep(0,rpp)
+      }
+      i=i+1
+    }
+  }else if(distrib=="Pareto"){
+    i=1
+    while(i<=N){
+      aux = min(as.matrix(which(poisproc[,i,1]==T)))
+      if(aux>2){
+        laux=cumsum(Paretornd(params[1],params[2],aux/2-1,1))
+        losses[3:aux,i] = laux[ceiling((1:(aux-2))/2)]
+        if(aux<rpp){
+          losses[(aux+1):rpp,i] = matrix(laux[length(laux)],rpp-aux,1)
+        }
+      }else{
+        losses[,i] = rep(0,rpp)
+      }
+      i=i+1
+    }
+  }else if(distrib=="Weibull"){
+    i=1
+    while(i<=N){
+      aux = min(as.matrix(which(poisproc[,i,1]==T)))
+      if(aux>2){
+        laux=cumsum(rweibull(aux/2-1,scale=params[1]^(-1/params[2]),shape=params[2]))
+        losses[3:aux,i] = laux[ceiling((1:(aux-2))/2)]
+        if(aux<rpp){
+          losses[(aux+1):rpp,i] = matrix(laux[length(laux)],rpp-aux,1)
+        }
+      }else{
+        losses[,i] = rep(0,rpp)
+      }
+      i=i+1
+    }
+  }
+    y     = array(0,dim(poisproc))
+  	y[,,1] = poisproc[,,1]
+    y[,,2] = losses
+  
+  return(y)
+  }
+
+
+```
+
+automatically created on 2018-05-28
+
+### MATLAB Code
+```matlab
+
+
+function [y] = simHPPALP(lambda,distrib,params,T,N)
+  
+if(lambda <= 0 || (length(lambda)~=1))
+	error('simHPPALP: Lambda must be a positive scalar.');
+end
+if(T <= 0 || (length(T)~=1))
+	error('simHPPALP: T must be a positive scalar.');
+end
+if(N <= 0 || (length(N)~=1))
+	error('simHPPALP: N must be a positive scalar.');
+end
+if((strcmp(distrib,'Burr') || strcmp(distrib,'mixofexps')) && (length(params)~=3))
+   	error('simNHPPALP: for Burr and mixofexps distributions, params must be a 3 x 1 vector.');
+end
+if((strcmp(distrib,'gamma') || strcmp(distrib,'lognormal')|| strcmp(distrib,'Pareto') || strcmp(distrib,'Weibull')) && (length(params))~=2)
+   	error('simNHPPALP: for gamma, lognormal, Pareto and Weibull distributions, params must be a 2 x 1 vector.');
+end
+if(strcmp(distrib,'exponential') && (length(params))~=1)
+   	error('simNHPPALP: for exponential distribution, params must be a scalar.');
+end
+if(strcmp(distrib, 'exponential')==0 && strcmp(distrib, 'gamma')==0 && strcmp(distrib, 'mixofexps')==0 && strcmp(distrib,'Weibull')==0 && strcmp(distrib, 'lognormal')==0 && strcmp(distrib,'Pareto')==0 && strcmp(distrib,'Burr')==0)
+   	error('simNHPPALP: distribs should be: exponential, gamma, mixofexps, Weibull, lognormal, Pareto or Burr');
+end
+
+  poisproc = simHPP(lambda,T,N);
+  rpp      = size(poisproc,1);
+  cpp      = size(poisproc,2);
+  losses   = zeros(rpp,cpp);
+  
+  switch distrib
+      case 'Burr'
+    i = 1;
+    while(i<=N)
+      aux = min(find(poisproc(:,i,1)==T,i));
+      if(aux>2)
+        laux                   = cumsum(Burrrnd(params(1),params(2),params(3),aux/2-1,1));
+        losses(3:aux,i)        = laux(ceil((1:(aux-2))/2));
+        if(aux<rpp)
+          losses((aux+1):rpp,i)= laux(length(laux))*ones(rpp-aux,1);
+        end
+      else
+        losses(:,i)=zeros(rpp,1);
+      end
+      i=i+1;
+    end
+      case 'exponential'
+    i = 1;
+    while(i<=N)
+      aux = min(find(poisproc(:,i,1)==T,i));
+      if(aux>2)
+        laux = cumsum(exprnd(1/params(1),aux/2-1,1));
+        losses(3:aux,i) = laux(ceil((1:aux-2)/2));
+        if(aux<rpp)
+          losses((aux+1):rpp,i) = laux(length(laux))*ones(rpp-aux,1);
+        end
+      else
+        losses(:,i)=zeros(rpp,1);
+      end
+      i = i + 1;
+    end
+      case 'gamma'
+    i = 1;
+    while(i<=N)
+    	aux = min(find(poisproc(:,i,1)==T,i));
+      if(aux>2)
+        laux = cumsum(gamrnd(params(1),(1/params(2)),aux/2-1,1));
+        losses(3:aux,i) = laux(ceil((1:aux-2)/2));
+        if(aux<rpp)
+          losses((aux+1):rpp,i) = laux(length(laux))*ones(rpp-aux,1);
+        end
+      else
+        losses(:,i) = zeros(rpp,1);
+      end
+      i = i + 1;
+    end
+      case 'lognormal'
+    i = 1;
+    while(i<=N)
+    	aux = min(find(poisproc(:,i,1)==T,i));
+      if(aux>2)
+        laux = cumsum(lognrnd(params(1),params(2),aux/2-1,1));
+        losses(3:aux,i) = laux(ceil((1:aux-2)/2));
+        if(aux<rpp)
+          losses((aux+1):rpp,i) = laux(length(laux))*ones(rpp-aux,1);
+        end
+      else
+        losses(:,i) = zeros(rpp,1);
+      end
+      i = i + 1;
+    end
+      case 'mixofexps'
+    i = 1;
+    while(i<=N)
+    	aux = min(find(poisproc(:,i,1)==T,i));
+      if(aux>2)
+        laux = cumsum(mixexprnd(params(1),params(2),params(3),aux/2-1,1));
+        losses(3:aux,i) = laux(ceil((1:aux-2)/2));
+        if(aux<rpp)
+          losses((aux+1):rpp,i) = laux(length(laux))*ones(rpp-aux,1);
+        end
+      else
+        losses(:,i) = zeros(rpp,1);
+      end
+      i = i + 1;
+    end
+      case 'Pareto'
+    i = 1;
+    while(i<=N)
+    	aux = min(find(poisproc(:,i,1)==T,i));
+      if(aux>2)
+        laux = cumsum(Paretornd(params(1),params(2),aux/2-1,1));
+        losses(3:aux,i) = laux(ceil((1:aux-2)/2));
+        if(aux<rpp)
+          losses((aux+1):rpp,i) = laux(length(laux))*ones(rpp-aux,1);
+        end
+      else
+        losses(:,i) = zeros(rpp,1);
+      end
+      i = i + 1;
+    end
+      case 'Weibull'
+    i = 1;
+    while(i<=N)
+    	aux = min(find(poisproc(:,i,1)==T,i));
+      if(aux>2)
+        laux=cumsum(wblrnd(params(1)^(-1/params(2)),params(2),aux/2-1,1));
+        losses(3:aux,i) = laux(ceil((1:aux-2)/2));
+        if(aux<rpp)
+          losses((aux+1):rpp,i) = laux(length(laux))*ones(rpp-aux,1);
+        end
+      else
+        losses(:,i) = zeros(rpp,1);
+      end
+      i = i + 1;
+    end
+    end
+   	y        = zeros(size(poisproc));
+  	y(:,:,1) = poisproc(:,:,1);
+    y(:,:,2) = losses;
+
+end
+```
+
+automatically created on 2018-05-28
