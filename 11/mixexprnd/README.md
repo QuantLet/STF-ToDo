@@ -19,20 +19,10 @@ Author: Awdesch Melzer
 
 Submitted: Sun, June 30 2013 by Awdesch Melzer
 
-Input: ninteger: number of rows
-
-minteger: number of columns
-
-alphascalar: parameter of mixture of exponential distribution
-
-beta1scalar: parameter of mixture of exponential distribution
-
-beta2scalar: parameter of mixture of exponential distribution
+Input: ninteger: number of rows minteger: number of columns alphascalar: parameter of mixture of exponential distribution beta1scalar: parameter of mixture of exponential distribution beta2scalar: parameter of mixture of exponential distribution
 
 Output: yn x m-matrix, pseudo random numbers
 
-Example: y = mixexprnd(alpha, beta1, beta2, n, m)
-
-Result: Contents of y
+Example: y = mixexprnd(alpha, beta1, beta2, n, m) set.seed(100) mixexprnd(0.2,2,1,3,2) Result: Contents of y [1,] 0.62480524 1.7483908 [2,] 1.17442933 0.2499930 [3,] 0.09311719 0.1943265
 
 ```
