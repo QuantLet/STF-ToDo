@@ -11,7 +11,7 @@ Published in: Statistical Tools for Finance and Insurance
 
 Description: Returns the cumulative density distribution of the Burr distribution.
 
-The default parameters are: ALPHA  = 1, LAMBDA = 1, TAU = 2.  Required by STFloss06.
+The default parameters are: ALPHA  = 1, LAMBDA = 1, TAU = 2.  Required by STFloss06.'
 
 Keywords: pdf, distribution, continuous, univariate, heavy-tailed
 
