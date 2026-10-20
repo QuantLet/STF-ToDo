@@ -19,23 +19,9 @@ Author: Daniel T. Pele
 
 Submitted: Sat, March 15 2014 by Lukas Borke
 
-Input: error: maximum error for convergence (usually is 0.01)
+Input: error: maximum error for convergence (usually is 0.01) maxiter: maximum number of iterations (usually is 100) var: variable used for estimation data: SAS dataset containing the variables
 
-maxiter: maximum number of iterations (usually is 100)
-
-var: variable used for estimation
-
-data: SAS dataset containing the variables
-
-Output: delta: location parameter
-
-res: SAS dataset containing the estimated parameters
-
-beta: skewness
-
-alpha: stability index
-
-gamma: scale parameter
+Output: delta: location parameter res: SAS dataset containing the estimated parameters beta: skewness alpha: stability index gamma: scale parameter
 
 Example: An example is generated for a simulated stable distribution S(alpha=1.5,beta=0,delta=0,gamma=1).
 
