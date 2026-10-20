@@ -19,19 +19,11 @@ Author: Awdesch Melzer
 
 Submitted: Tue, August 06 2013 by Awdesch Melzer
 
-Input: step: scalar, time interval between points at which the quantiles are computed
-
-data: n x m x 2 array, data, where n is the length of trajectories and m the number of trajectories
-
-perc: s x 1 vector, orders of quantiles
+Input: step: scalar, time interval between points at which the quantiles are computed data: n x m x 2 array, data, where n is the length of trajectories and m the number of trajectories perc: s x 1 vector, orders of quantiles
 
 Output: y: p x q matrix, where first column contains time and the remaining quantiles
 
-Example: y = quantilelines(data,step,perc)
-
-plot(q(: ,1),q(:,4),"k-")
-
-plot(y(: ,1,1),y(:,1,2),"r-")
+Example: y = quantilelines(data,step,perc) RandStream.setGlobalStream(RandStream("mt19937ar","seed",99)); y = simHPP(2,20,100); q = quantilelines(y,1,[0.1,0.5,0.9]); plot(q(:,1),q(:,2),"k-") hold on plot(q(:,1),q(:,3),"k-") plot(q(:,1),q(:,4),"k-") plot(y(:,1,1),y(:,1,2),"r-")
 
 ```
 <div align="center">
