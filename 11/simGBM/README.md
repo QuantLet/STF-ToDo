@@ -9,7 +9,7 @@ Name of QuantLet: simGBM
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: SIMGBM Simulates Geometric Brownian Motion (GBM).
+Description: SIMGBM Simulates Geometric Brownian Motion (GBM). Parameters for starting value, drift, volatility and step size can be chosen freely.
 
 Keywords: geometric-brownian-motion, random, continuous, simulation, brownian-motion, wiener-process
 
@@ -19,23 +19,7 @@ Author: Rafal Weron
 
 Submitted: Mon, April 11 2011 by Maria Osipenko
 
-Input: x0: starting value of the process
-
-N: the time interval [0,N]
-
-mu: drift
-
-sigma: volatility
-
-DELTA: time step size
-
-no: array of normally distributed pseudorandom
-
-METHOD = 1: Euler scheme
-
-METHOD = 2: Milstein scheme
-
-METHOD = 3: 2nd order Milstein scheme
+Input: x0: starting value of the process N: the time interval [0,N] mu: drift sigma: volatility DELTA: time step size no: array of normally distributed pseudorandom METHOD = 1: Euler scheme METHOD = 2: Milstein scheme METHOD = 3: 2nd order Milstein scheme
 
 Output: simulation of Geometric Brownian Motion
 
