@@ -17,6 +17,6 @@ Keywords: heston, volatility, variance, pdf, stochastic
 
 Author: Rafal Weron, Agnieszka Janek
 
-Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo
+Submitted: Tue, September 18 2012 by Dedy Dwi Prastyo M can be converted to Python
 
 ```
