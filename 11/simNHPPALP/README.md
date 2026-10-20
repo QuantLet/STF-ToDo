@@ -19,43 +19,11 @@ Author: Awdesch Melzer
 
 Submitted: Tue, August 06 2013 by Awdesch Melzer
 
-Input: parlambda: n x 1 vector, parameters of the intensity function lambda (n=2 for lambda=1, n=3 otherwise)
-
-N: scalar, number of trajectories
-
-params: n x 1 vector, parameters of the claim size distribution
-
-distrib: string, claim size distribution:
-
-"Burr": Burr distribution
-
-"exponential": exponential distribution
-
-"gamma": gamma distribution
-
-"lognormal": lognormal distribution
-
-"mixofexps": mix of exponential distributions
-
-"Pareto": Pareto distribution
-
-"Weibull": Weibull distribution
-
-lambda: scalar, intensity function, sine function (lambda=0) linear function (lambda=1) or sine square function (lambda=2)
+Input: parlambda: n x 1 vector, parameters of the intensity function lambda (n=2 for lambda=1, n=3 otherwise) N: scalar, number of trajectories params: n x 1 vector, parameters of the claim size distribution n = 1 (exponential) n = 2 (gamma, lognormal, Pareto, Weibull) n = 3 (Burr, mixofexps) T- scalar, time horizon distrib: string, claim size distribution: "Burr": Burr distribution "exponential": exponential distribution "gamma": gamma distribution "lognormal": lognormal distribution "mixofexps": mix of exponential distributions "Pareto": Pareto distribution "Weibull": Weibull distribution lambda: scalar, intensity function, sine function (lambda=0) linear function (lambda=1) or sine square function (lambda=2)
 
 Output: y: (2*max+2) x N x 2 array, generated process: max is the maximum number of jumps for all generated trajectories
 
-Example: Show two trajectories of aggregate loss process driven by the non-homogeneous Poisson process: y = simNHPPALP(lambda,parlambda,distrib,params,T,N)
-
-R: 
-
-MatLab: 
-
-plot(y1(: ,:,1),y1(:,:,2),"r-")
-
-ylim([min(min(y1(: ,:,2)),min(y2(:,:,2))),max(max(y1(:,:,2)),max(y2(:,:,2)))])
-
-line(y2(: ,:,1),y2(:,:,2))
+Example: Show two trajectories of aggregate loss process driven by the non-homogeneous Poisson process: y = simNHPPALP(lambda,parlambda,distrib,params,T,N) R: y1 = simNHPPALP(0,c(1,1,0),"Burr",c(3,2,1),5,1) y2 = simNHPPALP(1,c(1,1),"Pareto",c(1.5,2.5),5,1) plot(y1[,1],y1[,2],type="l",col="red3" ylim=c(min(y1[,2],y2[,2]),max(y1[,2],y2[,2])),ylab="",xlab="") lines(y2[,1],y2[,2],type="l",col="blue3") MatLab: y1 = simNHPPALP(0,[1,1,0],"Burr",[3,2,1],5,1); y2 = simNHPPALP(1,[1,1],"Pareto",[1.5,2.5],5,1); plot(y1(:,:,1),y1(:,:,2),"r-") ylim([min(min(y1(:,:,2)),min(y2(:,:,2))),max(max(y1(:,:,2)),max(y2(:,:,2)))]) line(y2(:,:,1),y2(:,:,2))
 
 ```
 <div align="center">
