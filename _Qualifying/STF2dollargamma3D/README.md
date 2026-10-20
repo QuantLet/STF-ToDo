@@ -19,7 +19,7 @@ Keywords: gamma, vega, option, portfolio, volatility
 
 Submitted: Mon, December 05 2011 by Dedy Dwi Prastyo
 
-Input: n- number of strikes in portfolio
+Input: n- number of strikes in portfolio s2- the highest strike of options" portfolio tau_max- maximal maturity of the swap s1- the lowest strike of options" portfolio
 
 Example: 3D plot of individual dollar gammas and portfolio dollar gamma for each weighting scheme.
 
