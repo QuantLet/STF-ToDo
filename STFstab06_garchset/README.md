@@ -9,7 +9,7 @@ Name of QuantLet: STFstab06
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Plots (log)-returns of WIG20 index with GARCH(1,1)-based daily volatility estimate sigma_t, as well as sigma_t filtered WIG20 returns.
+Description: Plots (log)-returns of WIG20 index with GARCH(1,1)-based daily volatility estimate sigma_t, as well as sigma_t filtered WIG20 returns. Requires edftests.m, nigest.m, hypest.m, stabreg.m, hypcdf.m, nigcdf.m, and stabcdf.m functions.
 
 Keywords: log-returns, GARCH, stable distribution, volatility, visualization, graphical representation
 
