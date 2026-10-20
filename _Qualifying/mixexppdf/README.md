@@ -9,7 +9,7 @@ Name of QuantLet: mixexppdf
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Returns a mixed exponential probability density function (pdf).
+Description: Returns a mixed exponential probability density function (pdf). A function required by STFloss03.m
 
 Keywords: pdf, probability, density, exponential, quantile
 
