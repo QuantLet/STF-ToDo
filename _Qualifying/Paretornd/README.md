@@ -19,12 +19,10 @@ See also: STFloss08t, STFloss10
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo
 
-Input: ninteger- number of rows
+Input: ninteger- number of rows minteger- number of columns alphascalar- parameter of Pareto distribution lambdascalar- parameter of Pareto distribution
 
 Output: yn x m- matrix, pseudo random numbers
 
-Example: y = Paretornd(alpha, lambda, n, m)
-
-Result: Contents of y
+Example: y = Paretornd(alpha, lambda, n, m) set.seed(100) Paretornd(3/2,1/2,3,2) Result: Contents of y [1,] 0.5968725 2.9004556 [2,] 0.7347848 0.3288320 [3,] 0.2427481 0.3113538
 
 ```
