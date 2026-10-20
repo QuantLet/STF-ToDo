@@ -9,7 +9,7 @@ Name of QuantLet: estPareto
 
 Published in: Statistical Tools for Finance and Insurance
 
-Description: Estimates the parameters of a Pareto distribution. Applicable methods are: maximum likelihood (ML), methods of moments (MoM) or optimized based on Anderson-Darling statistics (A2)
+Description: Estimates the parameters of a Pareto distribution. Applicable methods are: maximum likelihood (ML), methods of moments (MoM) or optimized based on Anderson-Darling statistics (A2) Function required by STFloss08t.
 
 Keywords: estimation, pareto, parameter, distribution, maximum-likelihood
 
