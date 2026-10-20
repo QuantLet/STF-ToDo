@@ -19,12 +19,10 @@ See also: STFloss08t, STFloss10
 
 Submitted: Tue, October 09 2012 by Dedy Dwi Prastyo
 
-Input: nscalar- integer, number of rows
+Input: nscalar- integer, number of rows mscalar- integer, number of columns alphascalar- parameter of Burr distribution lambdascalar- parameter of Burr distribution tauscalar- parameter of Burr distribution
 
 Output: yn x m- matrix, pseudo random numbers
 
-Example: y = Burrrnd (alpha, lambda, tau, n, m)
-
-Result: Contents of y
+Example: y = Burrrnd (alpha, lambda, tau, n, m) set.seed(100) Burrrnd(3,2,1,3,2) Result: Contents of y [1,] 0.9622592 3.2157114 [2,] 1.1429729 0.5750059 [3,] 0.4376187 0.5477108
 
 ```
