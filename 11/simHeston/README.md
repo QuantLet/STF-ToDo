@@ -19,25 +19,7 @@ Author: Rafal Weron
 
 Submitted: Mon, April 11 2011 by Maria Osipenko
 
-Input: s0: starting value of the spot price process
-
-N: time endpoint
-
-mu: drift
-
-v0: starting value of the volatility process
-
-delta: time step size
-
-KAPPA: speed of mean reversion of the volatility process
-
-THETA: long-term mean of the volatility process
-
-no: 2-column vector of normally distributed pseudorandom numbers
-
-SIGMA: volatility
-
-RHO: correlation between the spot price and volatility processes
+Input: s0: starting value of the spot price process N: time endpoint mu: drift v0: starting value of the volatility process delta: time step size KAPPA: speed of mean reversion of the volatility process THETA: long-term mean of the volatility process no: 2-column vector of normally distributed pseudorandom numbers SIGMA: volatility RHO: correlation between the spot price and volatility processes method METHOD = 1- Euler scheme (with absorption for the volatility process) METHOD = 2- Euler scheme (with reflection for the volatility process)
 
 Output: simulation of Geometric Brownian Motion
 
