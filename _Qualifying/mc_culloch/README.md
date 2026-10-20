@@ -19,19 +19,9 @@ Author: Daniel T. Pele
 
 Submitted: Sat, March 15 2014 by Lukas Borke
 
-Input: data: Dataset
+Input: data: Dataset var:  variable used for estimation
 
-var: variable used for estimation
-
-Output: parms: SAS dataset containing the estimates
-
-delta: location parameter
-
-alpha: stability index
-
-beta: skewness parameter
-
-gamma: scale parameter
+Output: parms: SAS dataset containing the estimates delta: location parameter alpha: stability index beta:  skewness parameter gamma: scale parameter
 
 Example: An example is generated for a simulated stable distribution S(alpha=1.5,beta=0,delta=0,gamma=1).
 
