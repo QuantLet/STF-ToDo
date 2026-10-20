@@ -19,25 +19,11 @@ Author: Awdesch Melzer
 
 Submitted: Tue, August 06 2013 by Awdesch Melzer
 
-Input: lambda: scalar, intensity of the Poisson process
-
-T: scalar, time horizon
-
-N: scalar, number of trajectories
+Input: lambda: scalar, intensity of the Poisson process T: scalar, time horizon N: scalar, number of trajectories
 
 Output: y: (2*max+2) x N x 2 array, generated process: max is the maximum number of jumps for all generated trajectories
 
-Example: Show two trajectories of homogeneous Poisson process: y = simHPP(lambda,T,N)
-
-R: 
-
-MatLab: 
-
-plot(y1(: ,:,1),y1(:,:,2),"r-")
-
-ylim([min(min(y1(: ,:,2)),min(y2(:,:,2))),max(max(y1(:,:,2)),max(y2(:,:,2)))])
-
-line(y2(: ,:,1),y2(:,:,2))
+Example: Show two trajectories of homogeneous Poisson process: y = simHPP(lambda,T,N) R: y1 = simHPP(3,5,1) y2 = simHPP(10,5,1) plot(y1[,,1],y1[,,2],type="l",col="red3",ylim=c(min(y1[,,2],y2[,,2]),max(y1[,,2],y2[,,2])),ylab="",xlab="") lines(y2[,,1],y2[,,2],type="l",col="blue3") MatLab: y1 = simHPP(3,5,1); y2 = simHPP(10,5,1); plot(y1(:,:,1),y1(:,:,2),"r-") ylim([min(min(y1(:,:,2)),min(y2(:,:,2))),max(max(y1(:,:,2)),max(y2(:,:,2)))]) line(y2(:,:,1),y2(:,:,2))
 
 ```
 <div align="center">
