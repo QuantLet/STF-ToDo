@@ -19,7 +19,7 @@ Author: Elena Silyakova
 
 Submitted: Mon, December 05 2011 by Dedy Dwi Prastyo
 
-Input: s2- the highest strike of options" portfolio
+Input: s2- the highest strike of options" portfolio s1- the lowest strike of options" portfolio tau- maturity of the swap n- number of options used for replication
 
 Output: Strike value
 
