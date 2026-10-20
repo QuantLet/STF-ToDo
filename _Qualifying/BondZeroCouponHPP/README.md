@@ -19,12 +19,10 @@ Author: Awdesch Melzer
 
 Submitted: Sun, June 30 2013 by Awdesch Melzer
 
-Input: Zscalar- payment at maturity
+Input: Zscalar- payment at maturity Dn1 x 1- vector, threshold level Tn2 x 1- vector, time to expiry rscalar- continuously-compounded discount rate lambdascalar- intensity of the Poisson process distrstring- claim size distribution Burr - Burr distribution exponential - exponential distribution gamma - gamma distribution lognormal - lognormal distribution mixofexps - mix of exponential distributions Pareto - Pareto distribution Weibull - Weibull distribution paramsn x 1- vector, parameters of the claim size distribution n = 1 (exponential) n = 2 (gamma, lognormal, Pareto, Weibull) n = 3 (Burr, mixofexps) Tmaxscalar- time horizon Ninteger- number of trajectories
 
 Output: y- m x 3 matrix, the first column are times to bond"s expiration, the second threshold levels and the third corresponding prices of the bond
 
-Example: y = BondZeroCouponHPP(Z,D,T,r,lambda,distr,params,Tmax,N)
-
-Result: Contents of d1
+Example: y = BondZeroCouponHPP(Z,D,T,r,lambda,distr,params,Tmax,N) Z = 1 D = c(1e9,2e9) T = c(1,2) r = log(1.025) lambda = 1 distr = "Burr" params = c(0.5,4*1e16,5) Tmax = max(T) N = 20 d1 = BondZeroCouponHPP(Z,D,T,r,lambda,distr,params,Tmax,N) d1 Result: Contents of d1 [1,] 1 1e+09 0.97561 [2,] 1 2e+09 0.97561 [3,] 2 1e+09 0.95181 [4,] 2 2e+09 0.95181
 
 ```
